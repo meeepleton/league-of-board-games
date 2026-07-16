@@ -1,0 +1,27 @@
+[
+  { "section": "General Rules", "items": [
+    { "q": "Who can participate?", "a": "Anyone above 14 years of age can register, individually or as part of a team of up to 4 players." },
+    { "q": "What should I bring?", "a": "A valid ID, your registration confirmation, and your competitive spirit. All games and equipment are provided." }
+  ]},
+  { "section": "League Rules", "items": [
+    { "q": "How is the league stage scored?", "a": "Each match win awards 3 points, a draw 1 point, and a loss 0 points. Standings are ranked by total points, then head-to-head record." },
+    { "q": "How do knockouts work?", "a": "The top 8 players from the league stage advance to single-elimination knockouts, followed by semi finals and the grand final." }
+  ]},
+  { "section": "Game Rules", "items": [
+    { "q": "Which rulebook version is used?", "a": "The latest official publisher rulebook for each game is used, with league-specific time limits posted at each table." },
+    { "q": "Are house rules allowed?", "a": "No house rules are permitted during competitive rounds. Casual play areas are free-form." }
+  ]},
+  { "section": "Sportsmanship", "items": [
+    { "q": "What is expected of players?", "a": "Respectful conduct, honest play, and timely arrival at your assigned table are expected of every participant." }
+  ]},
+  { "section": "Code of Conduct", "items": [
+    { "q": "Is harassment tolerated?", "a": "No. Any form of harassment, cheating, or disruptive behaviour results in immediate review by the organising committee." }
+  ]},
+  { "section": "Disqualification", "items": [
+    { "q": "What leads to disqualification?", "a": "Repeated rule violations, unsporting conduct, or failure to appear at two scheduled matches without notice." }
+  ]},
+  { "section": "FAQ", "items": [
+    { "q": "Can I switch games after registering?", "a": "Yes, up until the registration deadline. Contact the help desk or email us to make changes." },
+    { "q": "Is there a spectator pass?", "a": "Yes, spectator passes are available at the venue and cover all three days." }
+  ]}
+]

@@ -1,0 +1,13 @@
+{
+  "champion": { "name": "Aarav Mehta", "team": "Rook & Roll", "note": "League Champion 2026" },
+  "runnerUp": { "name": "Priya Nair", "team": "Meeple Militia", "note": "League Runner-Up 2026" },
+  "categoryAwards": [
+    { "title": "Best Strategist", "name": "Kabir Shah" },
+    { "title": "Best Newcomer", "name": "Sara Iyer" },
+    { "title": "Most Sporting Player", "name": "Neha Kapoor" }
+  ],
+  "specialAwards": [
+    { "title": "Fan Favourite", "name": "Vivaan Joshi" },
+    { "title": "Comeback of the League", "name": "Meera Pillai" }
+  ]
+}

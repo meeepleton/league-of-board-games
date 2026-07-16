@@ -1,0 +1,10 @@
+[
+  { "id": "catan", "name": "Catan", "category": "Euro Game", "description": "Trade, build and settle your way to the largest empire on the island.", "color": "forest" },
+  { "id": "codenames", "name": "Codenames", "category": "Social Deduction", "description": "Give one-word clues to help your team find every agent before the enemy does.", "color": "cherry" },
+  { "id": "splendor", "name": "Splendor", "category": "Strategy", "description": "Collect gems, build your merchant empire, and outpace rival traders.", "color": "sky" },
+  { "id": "ticket-to-ride", "name": "Ticket to Ride", "category": "Strategy", "description": "Claim railway routes across the map and connect the farthest cities first.", "color": "gold" },
+  { "id": "azul", "name": "Azul", "category": "Euro Game", "description": "Draft glowing tiles to craft the most elegant palace wall in the realm.", "color": "tangerine" },
+  { "id": "werewolf", "name": "Werewolf", "category": "Party Game", "description": "Debate, bluff and vote — can the village find the wolves before dawn?", "color": "cherry" },
+  { "id": "chess", "name": "Chess Blitz", "category": "Strategy", "description": "Fast-paced blitz rounds testing pure strategic depth under the clock.", "color": "forest" },
+  { "id": "carcassonne", "name": "Carcassonne", "category": "Euro Game", "description": "Lay tiles to build cities, roads and cloisters across the countryside.", "color": "sky" }
+]

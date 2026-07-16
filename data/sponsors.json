@@ -1,0 +1,12 @@
+{
+  "title": [
+    { "name": "MeepleWorks", "logo": "/illustrations/sponsor-1.svg" },
+    { "name": "Tabletop Union", "logo": "/illustrations/sponsor-2.svg" }
+  ],
+  "partners": [
+    { "name": "Dicehouse Cafe", "logo": "/illustrations/sponsor-3.svg" },
+    { "name": "Cardboard Collective", "logo": "/illustrations/sponsor-4.svg" },
+    { "name": "PlayLoud Studios", "logo": "/illustrations/sponsor-5.svg" },
+    { "name": "The Rulebook Co.", "logo": "/illustrations/sponsor-6.svg" }
+  ]
+}

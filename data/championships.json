@@ -1,0 +1,39 @@
+[
+  {
+    "id": "catan",
+    "name": "Settlers Championship",
+    "game": "Catan",
+    "standings": [
+      { "rank": 1, "name": "Kabir Shah", "points": 18 },
+      { "rank": 2, "name": "Rohan Verma", "points": 16 },
+      { "rank": 3, "name": "Priya Nair", "points": 14 },
+      { "rank": 4, "name": "Dev Patel", "points": 12 },
+      { "rank": 5, "name": "Ananya Rao", "points": 10 },
+      { "rank": 6, "name": "Neha Kapoor", "points": 8 }
+    ]
+  },
+  {
+    "id": "codenames",
+    "name": "Social Deduction Cup",
+    "game": "Codenames",
+    "standings": [
+      { "rank": 1, "name": "Isha Kulkarni", "points": 20 },
+      { "rank": 2, "name": "Aarav Mehta", "points": 17 },
+      { "rank": 3, "name": "Sara Iyer", "points": 15 },
+      { "rank": 4, "name": "Vivaan Joshi", "points": 11 },
+      { "rank": 5, "name": "Karan Malhotra", "points": 9 }
+    ]
+  },
+  {
+    "id": "splendor",
+    "name": "Euro Games Trophy",
+    "game": "Splendor",
+    "standings": [
+      { "rank": 1, "name": "Priya Nair", "points": 19 },
+      { "rank": 2, "name": "Meera Pillai", "points": 15 },
+      { "rank": 3, "name": "Dev Patel", "points": 13 },
+      { "rank": 4, "name": "Aarav Mehta", "points": 12 },
+      { "rank": 5, "name": "Rohan Verma", "points": 10 }
+    ]
+  }
+]

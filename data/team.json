@@ -1,0 +1,16 @@
+{
+  "organisers": [
+    { "name": "Ritika Shah", "role": "Festival Director" },
+    { "name": "Arjun Desai", "role": "Head of Operations" },
+    { "name": "Simran Gill", "role": "Community Lead" }
+  ],
+  "volunteers": [
+    { "name": "Yash Trivedi", "role": "Volunteer Coordinator" },
+    { "name": "Diya Menon", "role": "Registration Desk" },
+    { "name": "Farhan Khan", "role": "Games Master" }
+  ],
+  "partners": [
+    { "name": "Board Game Guild of India", "role": "Community Partner" },
+    { "name": "Indore Tabletop Meetup", "role": "Community Partner" }
+  ]
+}

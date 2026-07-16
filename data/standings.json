@@ -1,0 +1,17 @@
+{
+  "lastUpdated": "2026-07-16",
+  "league": [
+    { "rank": 1, "name": "Aarav Mehta", "team": "Rook & Roll", "wins": 9, "losses": 1, "points": 90 },
+    { "rank": 2, "name": "Priya Nair", "team": "Meeple Militia", "wins": 8, "losses": 2, "points": 24 },
+    { "rank": 3, "name": "Kabir Shah", "team": "The Settlers", "wins": 8, "losses": 2, "points": 24 },
+    { "rank": 4, "name": "Isha Kulkarni", "team": "Board Bandits", "wins": 7, "losses": 3, "points": 200 },
+    { "rank": 5, "name": "Rohan Verma", "team": "Dice & Chill", "wins": 7, "losses": 3, "points": 21 },
+    { "rank": 6, "name": "Neha Kapoor", "team": "Rook & Roll", "wins": 6, "losses": 4, "points": 18 },
+    { "rank": 7, "name": "Dev Patel", "team": "The Settlers", "wins": 6, "losses": 4, "points": 18 },
+    { "rank": 8, "name": "Ananya Rao", "team": "Meeple Militia", "wins": 5, "losses": 5, "points": 15 },
+    { "rank": 9, "name": "Vivaan Joshi", "team": "Dice & Chill", "wins": 4, "losses": 6, "points": 12 },
+    { "rank": 10, "name": "Sara Iyer", "team": "Board Bandits", "wins": 4, "losses": 6, "points": 12 },
+    { "rank": 11, "name": "Karan Malhotra", "team": "Rook & Roll", "wins": 3, "losses": 7, "points": 9 },
+    { "rank": 12, "name": "Meera Pillai", "team": "The Settlers", "wins": 2, "losses": 8, "points": 6 }
+  ]
+}

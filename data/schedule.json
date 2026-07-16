@@ -1,0 +1,30 @@
+[
+  {
+    "day": "Day 1 — Fri, 12 Sep",
+    "blocks": [
+      { "time": "9:00 AM", "period": "Morning", "activity": "Registration & Check-in", "icon": "clipboard" },
+      { "time": "10:30 AM", "period": "Morning", "activity": "Opening Ceremony", "icon": "megaphone" },
+      { "time": "12:00 PM", "period": "Afternoon", "activity": "League Stage — Round 1 & 2", "icon": "dice" },
+      { "time": "4:00 PM", "period": "Afternoon", "activity": "Learning Session: Euro Games 101", "icon": "book" },
+      { "time": "7:00 PM", "period": "Evening", "activity": "Social Mixer & Casual Play", "icon": "users" }
+    ]
+  },
+  {
+    "day": "Day 2 — Sat, 13 Sep",
+    "blocks": [
+      { "time": "9:00 AM", "period": "Morning", "activity": "League Stage — Round 3 & 4", "icon": "dice" },
+      { "time": "1:00 PM", "period": "Afternoon", "activity": "Championship Knockouts", "icon": "trophy" },
+      { "time": "4:30 PM", "period": "Afternoon", "activity": "Community Workshop: Game Design", "icon": "pen" },
+      { "time": "8:00 PM", "period": "Evening", "activity": "Werewolf Night (Party Games)", "icon": "moon" }
+    ]
+  },
+  {
+    "day": "Day 3 — Sun, 14 Sep",
+    "blocks": [
+      { "time": "9:30 AM", "period": "Morning", "activity": "Semi Finals", "icon": "dice" },
+      { "time": "1:00 PM", "period": "Afternoon", "activity": "Grand Finals", "icon": "trophy" },
+      { "time": "4:00 PM", "period": "Afternoon", "activity": "Awards & Prize Distribution", "icon": "award" },
+      { "time": "6:00 PM", "period": "Evening", "activity": "Closing Party & Confetti Finale", "icon": "party" }
+    ]
+  }
+]
