@@ -204,7 +204,9 @@
     "tags": [
       "Tile Laying",
       "Nature",
-      "Puzzle"
+      "Puzzle",
+      "Animals",
+      "Habitat"
     ],
     "howToPlay": [
       "Draft a paired habitat tile and wildlife token each turn.",
@@ -213,7 +215,7 @@
       "Highest combined score across all scoring categories wins."
     ],
     "image": "/games/cascadia.jpg",
-    "longDescription": "Cascadia is a calm, puzzle-like game about building the most harmonious landscape you can, balancing habitat variety against wildlife scoring patterns. It plays beautifully solo or with a full table, with no direct conflict between players."
+    "longDescription": "Set in the breathtaking Pacific Northwest, Cascadia is a puzzly tile-laying and token-drafting game centered on creating harmonious ecosystems. Players compete to build the most diverse and interconnected terrain area, balancing the growth of sprawling natural habitats with the introduction of native wildlife species.\n\nEach player begins their journey with a starting triplet of hexagonal habitat tiles featuring various terrains, such as mountains, forests, prairies, wetlands, and rivers. On your turn, you must draft a dynamic duo from a central market: a single habitat tile paired randomly with a wildlife token. The game rewards spatial optimization, as you strive to expand matching biomes while providing suitable homes for the region's animal residents.\n\nPlayers must balance two distinct scoring mechanics as they expand their environments:\n\n- Build Habitat Corridors: Connect matching terrain types to reduce fragmentation and build massive contiguous biomes, scoring points for your largest area of each habitat along with potential majority bonuses.\n\n- Populate Wildlife: Place drafted animal tokens—representing bears, elks, salmon, hawks, and foxes—onto valid tiles to satisfy distinct scoring cards that change every game.\n\n- Spend Nature Tokens: Utilize rare pinecone tokens earned by placing animals on specialized tiles to refresh the market or freely mix and match any tile and token on display.\n\n- Optimize Animal Formations: Position your wildlife to meet their specific social desires, whether that means clustering salmon into long rivers, pairing up grizzly bears, or keeping majestic hawks isolated. The player who creates the most cohesive ecosystem and scores the most combined points wins."
   },
   {
     "id": "wingspan",
@@ -228,7 +230,8 @@
     "tags": [
       "Engine Building",
       "Nature",
-      "Card Game"
+      "Card Game",
+      "Educational"
     ],
     "howToPlay": [
       "Play bird cards into forest, grassland, or wetland habitats.",
@@ -237,7 +240,7 @@
       "Highest score after 4 rounds — from birds, eggs, food, and bonuses — wins."
     ],
     "image": "/games/wingspan.jpg",
-    "longDescription": "Wingspan turned heads on release for its stunning bird illustrations, but it holds up because the underlying engine-building mechanics are genuinely clever. Each bird card you play can trigger chains of bonus actions, making every turn feel productive."
+    "longDescription": "Wingspan is a competitive, medium-weight, card-driven engine-building board game where players step into the shoes of passionate bird enthusiasts. As researchers, bird watchers, ornithologists, and collectors, your goal is to discover and attract the most spectacular birds to your expanding network of wildlife preserves. Every bird you attract extends a chain of powerful combinations within your distinct habitats, driving your ecological engine forward.\n\nThe game plays out over four rounds, with players managing their preserves across three specialized habitats. Each habitat corresponds to a fundamental action necessary for growth, allowing players to build increasingly complex strategies as their sanctuaries fill with life.\n\nDuring the game, players manage their preserves through three key actions:\n\n- Gain food tokens via custom dice rolled inside a thematic birdfeeder dice tower.\n\n- Lay eggs using colorful egg miniatures to populate nests and fund future bird placements.\n\n- Draw from hundreds of unique, beautifully illustrated bird cards and play them into their matching habitats.\n\n- Complete diverse end-of-round goals and secret bonus objectives to maximize their efficiency. The winner is the player who has accumulated the most total points from birds, eggs, cached food, tucked cards, and objectives after the fourth round concludes."
   },
   {
     "id": "7-wonders",
@@ -252,7 +255,9 @@
     "tags": [
       "Card Drafting",
       "Civilization",
-      "Strategy"
+      "Strategy",
+      "City Building",
+      "Economic"
     ],
     "howToPlay": [
       "Draft one card from your hand each turn, then pass the rest along.",
@@ -261,7 +266,7 @@
       "Highest total score from civilian, military, science, and wonders wins."
     ],
     "image": "/games/7-wonders.jpg",
-    "longDescription": "7 Wonders is built for speed — every player acts simultaneously each round, so a full game rarely takes more than 45 minutes even with a full table. Despite the pace, there's real depth in balancing military strength, science, and civilian development."
+    "longDescription": "As the leader of one of the seven greatest cities of the Ancient World, you are tasked with gathering essential resources, developing prosperous commercial routes, and securing your military supremacy. Over the course of three generations, you will build up your city and erect a magnificent architectural wonder that will transcend future times.\n\n7 Wonders is a fast-paced card development and drafting game where players build their civilizations simultaneously. Each player commands a unique, double-sided player board that grants distinct special powers and tracks their wonder's construction progress. The game concludes at the end of the third age, and the player who has accumulated the most victory points through science, military, commerce, and civic buildings wins.\n\nThe gameplay flows through a continuous cycle of drafting and passing cards:\n\n- Draft and Reveal: At the start of an age, players receive seven cards, secretly choose one to play, and simultaneously reveal their choices. Cards can be built for free, paid for with resources, or discarded for coins.\n\n- Pass and Repeat: After revealing their card, players pass their remaining hand to their neighbor. This process repeats until everyone has placed six cards into their city, at which point the current age ends and military conflicts are resolved.\n\n- Shifting Directions: Cards are passed left in the first age, right in the second, and left again in the third. Because every drafted card is played immediately, you must constantly monitor the developing strategies of the neighbors on both sides of you.\n\n- Flexible Scalability: While the game beautifully accommodates large groups of up to seven players with zero downtime, the rules also include an official, dedicated two-player variant."
   },
   {
     "id": "cryptid",
@@ -276,7 +281,9 @@
     "tags": [
       "Deduction",
       "Logic",
-      "Asymmetric"
+      "Asymmetric",
+      "Pattern Recognition",
+      "Race"
     ],
     "howToPlay": [
       "Each player holds a private clue about the creature's location.",
@@ -285,7 +292,7 @@
       "First to correctly guess the creature's exact location wins."
     ],
     "image": "/games/cryptid.jpg",
-    "longDescription": "Cryptid is a purely logical deduction game with no bluffing involved — every player's clue is true, and the challenge is combining public questions with private information to narrow down one exact map location before anyone else."
+    "longDescription": "You have studied the footage, connected the dots, and gathered what meager evidence you could to finally reveal the truth behind the Cryptid. A group of like-minded cryptozoologists have united to uncover the elusive creature, but the glory of discovery is far too rich to share. To locate the beast, you must carefully share fragments of your knowledge without giving away so much that your opponents beat you to the find.\n\nCryptid is a unique deduction game of honest misdirection where players attempt to uncover their opponents' secret clues while throwing them off the scent of their own. Each player holds exactly one piece of evidence that helps pinpoint the creature's location on the map, and players spend their turns gathering extra information from the rest of the group.\n\nThe game moves through an engaging puzzle of questioning and deduction:\n\n- Questioning: On your turn, you can ask a specific player about a precise tile on the map, forcing them to honestly reveal whether the Cryptid could exist there according to their secret clue.\n\n- Searching: Alternatively, you can declare a search on a space you believe is correct, forcing all players to reveal in turn order if the tile matches their evidence until the beast is found or a clue contradicts it.\n\nThe game features a modular board, five clue books, and a deck of cards offering hundreds of setups across two difficulty levels. It is also supported by an optional companion app for faster setup and a near-infinite range of puzzles. The first player to successfully deduce the exact tile where the creature hides wins the game."
   },
   {
     "id": "heat",
@@ -324,7 +331,9 @@
     "tags": [
       "City Building",
       "Engine Building",
-      "Strategy"
+      "Strategy",
+      "Card Game",
+      "Animals"
     ],
     "howToPlay": [
       "Gather resources by placing workers on the board each season.",
@@ -333,7 +342,7 @@
       "Highest points from your city, events, and journey at game end wins."
     ],
     "image": "/games/everdell.jpg",
-    "longDescription": "Everdell combines woodland-critter charm with a genuinely meaty engine-building system underneath. Building your city across four seasons means every early decision echoes through the rest of the game."
+    "longDescription": "Deep within the charming valley of Everdell, beneath the boughs of towering trees and beside meandering streams, a civilization of forest critters is thriving. After many years of peace, the time has come to settle new territories and establish grand new cities. As the leader of a group of ambitious critters, you are tasked with constructing buildings, meeting lively characters, and hosting grand events before the winter moon rises.\n\nEverdell is a dynamic game of tableau building and worker placement that spans four seasons. Players work to develop their own woodland settlements, balancing their resources to construct the most prosperous city in the valley. The game ends at the onset of the following winter, at which point the player with the highest-scoring city wins.\n\nOn their turn, a player can take one of three distinct actions:\n\n- Place a Worker: Players deploy their worker pieces onto various board locations, event tiles, or Destination cards. Workers perform critical development tasks, such as gathering essential resources, drawing new cards, and executing special actions.\n\n- Play a Card: Players build and populate their city by adding up to 15 Construction and Critter cards to their tableau. Cards belong to five unique types—Travelers, Production, Destination, Governance, and Prosperity—which generate resources (twigs, resin, pebbles, and berries), grant powerful abilities, and score victory points.\n\n- Prepare for the next Season: Players recall their workers from the board and gain new workers for the upcoming season, unlocking new strategic opportunities as the year progresses."
   },
   {
     "id": "castles-of-burgundy",
@@ -348,7 +357,9 @@
     "tags": [
       "Dice Placement",
       "Territory Building",
-      "Strategy"
+      "Strategy",
+      "Animals",
+      "Medieval"
     ],
     "howToPlay": [
       "Roll dice to select tiles from the central display each turn.",
@@ -357,7 +368,7 @@
       "Highest total score after five phases wins."
     ],
     "image": "/games/castles-of-burgundy.jpg",
-    "longDescription": "Castles Of Burgundy is a dice-driven territory builder where luck sets your options but skillful placement determines your score. Its five-phase structure keeps every round feeling purposeful right up to the final tally."
+    "longDescription": "Set in the Burgundy region of High Medieval France, players act as aristocrats seeking to expand their small princedoms. By drafting settlement tiles from a central board and placing them onto their personal map, players build powerful castles, establish trade, exploit silver mines, and deploy unique tile abilities to maximize their kingdom's potential.\n\nThe game spans five phases, each consisting of five rounds. Every round begins with players rolling two personal dice, which dictate the actions they can perform. A first-player goods die determines where new resources appear on the board, adding a layer of tactical planning to every round.\n\nOn their turn, players spend their dice to perform two of four core actions:\n\n- Draft a settlement tile from the main board into their temporary staging area.\n\n- Move a tile from the staging area into a matching, adjacent region of their princedom.\n\n- Deliver goods from their supply that match the face value of a die.\n\n- Hire worker tokens, which can be spent later to alter future dice rolls.\n\nAdditionally, players can spend silver once per turn to buy a tile from the central depot. The game concludes after the final phase, where victory points are tallied from completed regions, undelivered goods, leftover resources, and end-game bonus tiles. The aristocrat with the most points wins."
   },
   {
     "id": "brass-birmingham",
@@ -372,7 +383,10 @@
     "tags": [
       "Economic",
       "Network Building",
-      "Heavy Strategy"
+      "Heavy Strategy",
+      "Age of Reason",
+      "Post-Napoleonic",
+      "Transportation"
     ],
     "howToPlay": [
       "Build industry tiles and canal or rail links across the map.",
@@ -381,7 +395,7 @@
       "Highest combined score across both eras wins."
     ],
     "image": "/games/brass-birmingham.jpg",
-    "longDescription": "Brass Birmingham is widely regarded as one of the most rewarding heavy strategy games available, spanning two distinct eras of industrial development. It demands careful economic planning, but the payoff for a well-timed network is immense."
+    "longDescription": "In the smoke-filled skies of the Industrial Revolution, competing entrepreneurs fight for dominance in Brass: Birmingham, the economic strategy sequel to Martin Wallace's 2007 masterpiece. Set between the years of 1770 and 1870, the game tasks players with developing, building, and establishing complex industrial networks to exploit shifting market demands.\n\nWhile sharing core mechanics with its predecessor, it delivers a distinctly different strategic arc and experience. The competition unfolds across two distinct historical halves—the canal era (1770-1830) and the rail era (1830-1870). The ultimate goal is to accumulate the most Victory Points (VPs), which are calculated at the end of each era based on your active canal or rail links and your successfully established, flipped industry tiles.\n\nDuring each round, players take turns dictated by a dynamic turn order track, spending two actions to expand their empire. Players can choose from the five classic actions:\n\n1) Build - Pay required resources and place an industry tile.\n\n2) Network - Add a rail / canal link, expanding your network.\n\n3) Develop - Increase the VP value of an industry.\n\n4) Sell - Sell your cotton, manufactured goods and pottery.\n\n5) Loan - Take a £30 loan and reduce your income.\n\nAdditionally, Brass: Birmingham introduces a completely new strategic option that replaces the original game's Double Action Build:\n\n6) Scout - Discard three cards and take a wild location and wild industry card."
   },
   {
     "id": "blood-on-the-clocktower",
