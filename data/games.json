@@ -12,7 +12,8 @@
     "tags": [
       "Card Game",
       "Family Friendly",
-      "Quick Play"
+      "Quick Play",
+      "Numbers & Colors"
     ],
     "howToPlay": [
       "Match the top card of the discard pile by color, number, or symbol.",
@@ -21,7 +22,7 @@
       "First player to empty their hand wins the round."
     ],
     "image": "/games/uno.jpg",
-    "longDescription": "UNO has been a household staple for decades because it's easy to teach in under a minute but still sparks genuine tension every time someone slaps down a Draw Four. It plays fast, scales from small family groups to large party tables, and rarely lasts more than half an hour."
+    "longDescription": "In this classic, fast-paced card game, players race against one another to empty their hands while forcing opponents to get caught holding high-scoring cards. On each turn, players must carefully evaluate their hand and match the top card of the central discard pile by color, number, or active action symbol. If a player lacks a matching card or valid action, they are forced to draw from the central deck—passing their turn if they remain unable to play.\n\nThe game relies heavily on dynamic hand management and disruptive strategic plays driven by special action cards:\n\n- Color and Number Matching: Keep the momentum going by matching the suit or numerical value of the current card on top of the discard pile.\n\n- Action Cards: Discard tactical action cards to force the next player to skip their turn, reverse the order of play, or draw extra cards from the deck.\n\n- Wild Cards: Change the active color at any moment with standard Wild cards, or drop a Wild Draw Four to force an opponent to pick up four cards while redirecting the suit to your advantage.\n\n- Penalties and Calls: Catch opponents off guard when they forget to announce their final remaining card, forcing them to take extra penalty draws from the deck.\n\nOnce a player successfully discards their final card, the round ends immediately. Points are scored based on the remaining cards left in opponents' hands, and play continues over multiple rounds until one player achieves the ultimate target score."
   },
   {
     "id": "anomia",
@@ -36,7 +37,9 @@
     "tags": [
       "Word Game",
       "Fast-Paced",
-      "Party"
+      "Party",
+      "Trivia",
+      "Word Game"
     ],
     "howToPlay": [
       "Flip cards from your deck one at a time.",
@@ -45,7 +48,7 @@
       "First to collect a set number of opponents' cards wins."
     ],
     "image": "/games/anomia.jpg",
-    "longDescription": "Anomia turns everyday knowledge into a reflex test — the moment two symbols match, players race to blurt out an example before their opponent does. It's loud, fast, and surprisingly good at exposing who really knows their movie trivia under pressure."
+    "longDescription": "Anomia plays off the fact that our minds are positively brimming with all sorts of random information—things to eat, pop songs, websites, and more. While it is usually effortless to name a frozen food or a dog breed, your brain works entirely differently under the pressure of a fast-paced head-to-head match!\n\nPlayers take turns drawing and revealing cards from a central deck into their personal display pile, constantly watching for matching symbols on opponent cards. The core game mechanics include:\n\n- Face-Off Duels: When the symbol on your drawn card matches another player's top card, a face-off instantly begins. You must shout out an example of the category listed on your opponent's card before they can name the category on yours.\n\n- Claiming Rewards: The first player to successfully blurt out a correct answer claims their opponent's top card as a point, placing it face-down in their personal score pile.\n\n- Cascading Face-Offs: Winning a card often reveals a new top card in a player's pile, which can instantly trigger consecutive face-offs across the table in rapid succession.\n\n- Wild Cards: Special wild cards introduce dual-symbol matches between previously non-matching cards, dramatically raising the level of attention and chaos required to stay ahead.\n\nThe game continues until the draw piles are completely exhausted, and the player with the most claimed cards at the end of the game wins."
   },
   {
     "id": "trio",
@@ -60,7 +63,9 @@
     "tags": [
       "Trivia",
       "Fast-Paced",
-      "Party"
+      "Party",
+      "Card Game",
+      "Memory"
     ],
     "howToPlay": [
       "A category card is revealed to all players.",
@@ -69,7 +74,7 @@
       "Most points after all rounds wins."
     ],
     "image": "/games/trio.jpg",
-    "longDescription": "Trio rewards players who can read a room as well as a category card. Since everyone guesses simultaneously, it blends genuine trivia knowledge with a bit of psychology — guessing what everyone else is likely to guess."
+    "longDescription": "nana—later re-released as Trio—is a quick-witted deduction and set-collection card game where players compete to locate hidden triplets of identical numbers. The deck consists of 36 cards, featuring numbers 1 through 12 repeated three times each. Players hold a sorted hand of cards arranged strictly from lowest to highest, while the remaining cards lie face-down in a shared central pool on the table.\n\nOn a player's turn, they attempt to reveal matching cards one by one by calling out either the lowest or highest card from any player's hand (including their own) or flipping a face-down card from the center. If the first two revealed cards match, the player continues their turn by attempting to find the final matching card; if the numbers differ at any point, all revealed cards return to their original locations and the turn ends immediately.\n\nSuccessfully revealing all three matching cards allows the active player to claim the set and place it in front of them. Victory can be achieved in several ways depending on the game mode:\n\n- Standard Victory: Secure three complete sets before any opponent.\n\n- Instant Win: Instantly win the game by uncovering the set of 7s, or by collecting two sets whose numbers add up to or subtract to 7 (such as 4s and 11s).\n\n- Spicy Mode (Trio): Shift the focus to high-stakes set combinations, where players win by collecting the 7s or securing two 'linked' sets specified on victory cards.\n\n- Team Play (Trio): Compete in pairs in four- or six-player matches, coordinating card calls and sharing victory requirements with a partner."
   },
   {
     "id": "exploding-kittens",
@@ -84,7 +89,9 @@
     "tags": [
       "Card Game",
       "Push Your Luck",
-      "Party"
+      "Party",
+      "Card Game",
+      "Animals"
     ],
     "howToPlay": [
       "Draw a card each turn — avoid drawing an Exploding Kitten.",
@@ -93,7 +100,7 @@
       "Last player left in the game wins."
     ],
     "image": "/games/exploding-kittens.jpg",
-    "longDescription": "Exploding Kittens takes the tension of Russian roulette and wraps it in bright, silly cat-themed cards. It's built for quick, high-energy rounds where laughter and groans happen in equal measure."
+    "longDescription": "Exploding Kittens is a highly strategic, kitty-powered version of Russian Roulette. Players take turns drafting cards from a shared deck, moving through the game with caution, as drawing a single Exploding Kitten immediately knocks a player out of the match. The tension scales dramatically with every turn, as the dwindling draw pile steadily increases the mathematical probability of encountering a fatal feline outburst.\n\nThe core deck is packed with tactical tools that allow players to manipulate the order of draw cards, mitigate risk, and sabotage opponents before taking a draw step:\n\n- Defuse the Danger: Neutralize drawn Exploding Kittens using laser pointers, catnip sandwiches, or belly rubs to safely insert the kitten back into the deck at any secret location of your choice.\n\n- Attack and Force Turns: Pass your mandatory draw step to the next player while forcing them to take multiple consecutive turns in a row.\n\n- Manipulate the Deck: Use specialized action cards to peek at the top three cards of the deck, alter their order, or thoroughly shuffle the draw pile to disrupt an opponent's turn.\n\n- Skip and Steal: Bypass your draw requirement instantly with Skip cards, or play matching Cat card pairs to steal valuable defuses and utility cards directly from an opponent's hand.\n\n- Cancel Opponent Actions: Play Nope cards at any moment to invalidate an opponent's action, creating chaotic chains of counters and re-counters.\n\nPlayers continue managing their hand, neutralizing threats, and directing danger toward rivals until only one survivor remains standing, declaring them the ultimate winner."
   },
   {
     "id": "sequence",
@@ -108,7 +115,8 @@
     "tags": [
       "Board & Cards",
       "Team Play",
-      "Strategy"
+      "Strategy",
+      "Abstract"
     ],
     "howToPlay": [
       "Play a card from your hand and place a chip on the matching board space.",
@@ -117,7 +125,7 @@
       "First team or player to complete the required sequences wins."
     ],
     "image": "/games/sequence.jpg",
-    "longDescription": "Sequence blends the unpredictability of a card draw with the strategic depth of a board game, since your hand dictates where you're allowed to play. Games often come down to a last-second block, making it a favorite for tense team play."
+    "longDescription": "Sequence is an engaging strategy game that seamlessly blends card play with classic board-positioning mechanics. The game board displays every card face—excluding the Jacks—from two standard 52-card decks, organized into a clean 10x10 grid. The four corner spaces act as neutral free zones, counting as an active chip for every player simultaneously to help build tactical advantage.\n\nPlayers or teams take turns playing a card from their hand to place a colored marker chip onto a matching space on the board, working to connect chips while blocking their opponents' momentum. The game revolves around several key tactical elements:\n\n- Forming Sequences: Race to align five continuous marker chips of the same color horizontally, vertically, or diagonally across the board.\n\n- Wild Two-Eyed Jacks: Play a Two-Eyed Jack as a wild card to place a marker chip on any open space on the board, filling critical gaps in your line.\n\n- Removal One-Eyed Jacks: Play a One-Eyed Jack to target and remove an opponent's marker chip from the board, frustrating their plans and breaking up potential sequences.\n\n- Neutral Corners: Utilize the four open corner spaces strategically, as they serve as free chips for all players to complete overlapping lines.\n\nThe game ends instantly when a player or team successfully completes the required number of five-chip sequences, claiming victory over the board."
   },
   {
     "id": "splendor",
@@ -132,7 +140,8 @@
     "tags": [
       "Engine Building",
       "Economic",
-      "Strategy"
+      "Strategy",
+      "Card Game"
     ],
     "howToPlay": [
       "Collect gem tokens or reserve development cards each turn.",
@@ -141,7 +150,7 @@
       "First to 15 prestige points triggers the final round — highest score wins."
     ],
     "image": "/games/splendor.jpg",
-    "longDescription": "Splendor is a quiet, elegant engine-builder where every gem token and development card you acquire makes your future turns cheaper and faster. It rewards long-term planning without ever feeling slow, wrapping up in about half an hour."
+   "longDescription": "Splendor is a game of chip-collecting and card development. Players are merchants of the Renaissance trying to buy gem mines, means of transportation, shops—all in order to acquire the most prestige points. If you're wealthy enough, you might even receive a visit from a noble at some point, which of course will further increase your prestige.\n\nOn your turn, you may (1) collect chips (gems), or (2) buy and build a card, or (3) reserve one card. If you collect chips, you take either three different kinds of chips or two chips of the same kind. If you buy a card, you pay its price in chips and add it to your playing area. To reserve a card—in order to make sure you get it, or, why not, your opponents don't get it—you place it in front of you face down for later building; this costs you a round, but you also get gold in the form of a joker chip, which you can use as any gem.\n\nAll of the cards you buy increase your wealth as they give you a permanent gem bonus for later buys; some of the cards also give you prestige points. In order to win the game, you must reach 15 prestige points before your opponents do."
   },
   {
     "id": "azul",
@@ -156,7 +165,8 @@
     "tags": [
       "Tile Drafting",
       "Abstract",
-      "Strategy"
+      "Strategy",
+      "Renaissance"
     ],
     "howToPlay": [
       "Draft tiles of a single color from factory displays each round.",
@@ -165,7 +175,7 @@
       "Game ends when a player completes a horizontal wall row — highest score wins."
     ],
     "image": "/games/azul.jpg",
-    "longDescription": "Azul turns a simple act of tile-drafting into a genuinely tricky puzzle — take too many of one color and you'll be penalized, take too few and you fall behind. Its physical tiles and clean visual design make it as satisfying to look at as it is to play."
+    "longDescription": "Introduced by the Moors, azulejos (originally white and blue ceramic tiles) were fully embraced by the Portuguese when their king Manuel I, on a visit to the Alhambra palace in Southern Spain, was mesmerized by the stunning beauty of the Moorish decorative tiles. The king, awestruck by the interior beauty of the Alhambra, immediately ordered that his own palace in Portugal be decorated with similar wall tiles. As a tile-laying artist, you have been challenged to embellish the walls of the Royal Palace of Evora.\n\nIn the game Azul, players take turns drafting colored tiles from suppliers to their player board. Later in the round, players score points based on how they've placed their tiles to decorate the palace. Extra points are scored for specific patterns and completing sets; wasted supplies harm the player's score. The player with the most points at the end of the game wins."
   },
   {
     "id": "catan",
@@ -180,7 +190,9 @@
     "tags": [
       "Trading",
       "Building",
-      "Strategy"
+      "Strategy",
+      "Negotiation",
+      "Economic"
     ],
     "howToPlay": [
       "Roll dice each turn to generate resources from adjacent terrain.",
@@ -189,7 +201,7 @@
       "First player to reach 10 victory points wins."
     ],
     "image": "/games/catan.jpg",
-    "longDescription": "Catan remains one of the most influential board games ever made, introducing an entire generation to trading, resource management, and the particular heartbreak of a well-placed robber. No two games play out the same way twice."
+    "longDescription": "In CATAN, players strive to become the dominant force on the island of Catan by building settlements, cities, and connecting roads across an ever-changing landscape. The island is created by randomly arranging large hexagonal terrain tiles representing rich natural landscapes—forests, hills, pastures, fields, and mountains—surrounded by a vast ocean. Each turn, the roll of two six-sided dice determines which territories yield their valuable resources, driving a vibrant player economy.\n\nPlayers spend their harvested resource cards—wood, brick, sheep, wheat, and ore—to construct infrastructure, expand their reach, and earn victory points. The first player to reach 10 victory points on their turn claims ultimate victory over the island.\n\nOn their turn, a player executes a series of strategic phases:\n\n- Harvest Resources: Roll two dice to generate resources for every player with settlements or cities adjacent to terrain tiles matching the rolled number.\n\n- Trade with Players or Ports: Negotiate domestic resource trades with opponents, or use coastal ports and bank trades to exchange excess goods for missing materials.\n\n- Build and Expand: Spend resource combinations to build new roads, found settlements, upgrade existing settlements into high-yielding cities, or purchase versatile Development Cards.\n\n- Unleash the Robber: Rolling a 7 halts resource production, forces players with oversized hands to discard half their cards, and allows the active player to move the robber pawn to block an opponent's tile and steal a resource.\n\n- Accumulate Victory Points: Earn points from physical settlements and cities, secret Development Cards, or by securing dynamic special achievements like the Longest Road or Largest Army."
   },
   {
     "id": "cascadia",
@@ -296,7 +308,7 @@
   },
   {
     "id": "heat",
-    "name": "Heat",
+    "name": "Heat: Pedal to the Metal",
     "category": "Strategy",
     "description": "Race, draft gears, and manage your engine heat to cross the finish line first.",
     "color": "tangerine",
@@ -307,7 +319,9 @@
     "tags": [
       "Racing",
       "Card Game",
-      "Strategy"
+      "Strategy",
+      "Sports",
+      "Cars"
     ],
     "howToPlay": [
       "Play speed cards from your hand to move your car along the track.",
@@ -316,7 +330,7 @@
       "First car to complete all laps wins the race."
     ],
     "image": "/games/heat.jpg",
-    "longDescription": "Heat captures the feel of motorsport racing through card management rather than dice, forcing players to balance aggressive speed against the risk of overheating on tight corners. Slipstreaming past a rival on the final straight is one of the best feelings at the table."
+    "longDescription": "Based on simple and intuitive hand management, Heat: Pedal to the Metal puts players in the driver's seat of intense 1960s car races, jockeying for position to cross the finish line first while constantly managing their vehicle's heat engine. Drivers must carefully regulate their speed through tight corners to avoid overheating, shifting gears to maintain momentum without blowing their engine on the straightaways.\n\nSelecting the right upgrades and tuning options helps drivers hug sharp turns, clear chicanes, and keep their engine cool enough to sustain top speeds. The game features multiple dynamic modes and tactical modules to enhance every race:\n\n- Gear and Heat Management: Play speed cards to advance along the track, paying heat cards into your engine pool when shifting rapidly or pushing past safe corner limits.\n\n- Upgrades and Customization: Tailor your race car with special utility cards—such as improved brakes, cooling systems, or superchargers—to optimize performance for specific track layouts.\n\n- Championship System: Experience a full racing season in a single game night, complete with changing weather conditions, shifting road variables, and event cards that alter track rules between races.\n\n- Solo Play and Bot Racers: Tackle the track alone using the robust Legends Module, or seamlessly integrate automated drivers to fill out the grid in multiplayer matches.\n\nUltimately, a driver's ability to balance aggressive speed with calculated thermal control will be the key to taking the checkered flag and claiming the top spot on the podium."
   },
   {
     "id": "everdell",
