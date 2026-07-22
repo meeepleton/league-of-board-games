@@ -1,0 +1,19 @@
+[
+  { "id": "uno", "name": "UNO", "category": "Party Game", "players": "4 Players", "duration": "20m", "slotsLeft": 9 },
+  { "id": "anomia", "name": "Anomia", "category": "Party Game", "players": "3 Players", "duration": "30m", "slotsLeft": 6 },
+  { "id": "trio", "name": "Trio", "category": "Card Game", "players": "3 Players", "duration": "15m", "slotsLeft": 5 },
+  { "id": "exploding-kittens", "name": "Exploding Kittens", "category": "Card Game", "players": "4 Players", "duration": "20m", "slotsLeft": 8 },
+  { "id": "sequence", "name": "Sequence", "category": "Board & Cards", "players": "3 Players", "duration": "35m", "slotsLeft": 6 },
+  { "id": "splendor", "name": "Splendor", "category": "Card Development", "players": "2 Players", "duration": "30m", "slotsLeft": 4 },
+  { "id": "azul", "name": "Azul", "category": "Tile Drafting", "players": "2 Players", "duration": "30m", "slotsLeft": 6 },
+  { "id": "catan", "name": "Catan", "category": "Strategy", "players": "3 Players", "duration": "90m", "slotsLeft": 0 },
+  { "id": "cascadia", "name": "Cascadia", "category": "Tile Laying", "players": "2 Players", "duration": "35m", "slotsLeft": 5 },
+  { "id": "wingspan", "name": "Wingspan", "category": "Engine Building", "players": "2 Players", "duration": "50m", "slotsLeft": 3 },
+  { "id": "7-wonders", "name": "7 Wonders", "category": "Card Drafting", "players": "3 Players", "duration": "45m", "slotsLeft": 7 },
+  { "id": "cryptid", "name": "Cryptid", "category": "Deduction", "players": "3 Players", "duration": "30m", "slotsLeft": 5 },
+  { "id": "heat-pedal-to-the-metal", "name": "Heat: Pedal to the Metal", "category": "Strategy / Route Building", "players": "2 Players", "duration": "60m", "slotsLeft": 4 },
+  { "id": "everdell", "name": "Everdell", "category": "City Building", "players": "2 Players", "duration": "60m", "slotsLeft": 0 },
+  { "id": "castles-of-burgundy", "name": "Castles Of Burgundy", "category": "Strategy / Tile Placement", "players": "2 Players", "duration": "90m", "slotsLeft": 3 },
+  { "id": "brass-birmingham", "name": "Brass Birmingham", "category": "Strategy / Economic", "players": "2 Players", "duration": "120m", "slotsLeft": 2 },
+  { "id": "blood-on-the-clocktower", "name": "Blood on the Clocktower", "category": "Social Deduction", "players": "8 Players", "duration": "120m", "slotsLeft": 0 }
+]
