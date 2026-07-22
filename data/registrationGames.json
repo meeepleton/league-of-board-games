@@ -1,0 +1,12 @@
+[
+  { "id": "catan", "name": "Catan", "category": "Strategy", "players": "3 Players", "duration": "90m", "slotsLeft": 0 },
+  { "id": "ticket-to-ride", "name": "Ticket to Ride", "category": "Strategy / Route Building", "players": "2 Players", "duration": "60m", "slotsLeft": 5 },
+  { "id": "7-wonders", "name": "7 Wonders", "category": "Card Drafting", "players": "3 Players", "duration": "45m", "slotsLeft": 7 },
+  { "id": "splendor", "name": "Splendor", "category": "Card Development", "players": "2 Players", "duration": "30m", "slotsLeft": 4 },
+  { "id": "azul", "name": "Azul", "category": "Tile Drafting", "players": "2 Players", "duration": "30m", "slotsLeft": 6 },
+  { "id": "wingspan", "name": "Wingspan", "category": "Engine Building", "players": "2 Players", "duration": "50m", "slotsLeft": 3 },
+  { "id": "cascadia", "name": "Cascadia", "category": "Tile Laying", "players": "2 Players", "duration": "35m", "slotsLeft": 5 },
+  { "id": "everdell", "name": "Everdell", "category": "City Building", "players": "2 Players", "duration": "60m", "slotsLeft": 0 },
+  { "id": "uno", "name": "UNO", "category": "Party Game", "players": "4 Players", "duration": "20m", "slotsLeft": 9 },
+  { "id": "sequence", "name": "Sequence", "category": "Board & Cards", "players": "3 Players", "duration": "35m", "slotsLeft": 6 }
+]
