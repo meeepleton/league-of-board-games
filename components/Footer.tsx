@@ -95,7 +95,7 @@ export default function Footer() {
         >
           <h3 className="font-heading text-2xl mb-3">Meeple Masters</h3>
           <p className="text-cream/70 text-sm leading-relaxed">
-            India&apos;s national-level board gaming league and championship — three days of
+            Bhopal&apos;s firstever board gaming league and championship — three days of
             strategy, deduction, and dice.
           </p>
         </motion.div>
