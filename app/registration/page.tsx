@@ -127,9 +127,6 @@
 //   );
 // }
 
-
-
-
 // "use client";
 
 // import { motion } from "framer-motion";
@@ -294,16 +291,33 @@
 //   );
 // }
 
-
-
-
 "use client";
 
 import { motion } from "framer-motion";
 import { CalendarDays, Ticket, Info } from "lucide-react";
 import RegistrationForm from "@/components/RegistrationForm";
+import { useEffect } from "react";
+import { passService } from "@/api/client/services/pass.service";
 
 export default function RegistrationPage() {
+  useEffect(() => {
+    let cancelled = false;
+
+    (async () => {
+      try {
+        const data = await passService.getAll();
+        console.log(data);
+        // if (!cancelled) setPasses(data);
+      } catch (err) {
+        if (!cancelled) {
+          // setLoadError(
+          //   err instanceof Error ? err.message : "Failed to load passes",
+          // );
+        }
+      } finally {
+      }
+    })();
+  }, []);
   return (
     <div className="max-w-5xl mx-auto px-6 md:px-10 pt-32 pb-20">
       <motion.div
@@ -312,8 +326,12 @@ export default function RegistrationPage() {
         transition={{ duration: 0.5 }}
         className="text-center mb-16"
       >
-        <h1 className="font-heading text-4xl md:text-5xl font-semibold mb-3">Registration</h1>
-        <p className="text-ink/60">Registrations open 1 Aug 2026 and close 5 Sep 2026.</p>
+        <h1 className="font-heading text-4xl md:text-5xl font-semibold mb-3">
+          Registration
+        </h1>
+        <p className="text-ink/60">
+          Registrations open 1 Aug 2026 and close 5 Sep 2026.
+        </p>
       </motion.div>
 
       {/* Registration information */}
@@ -328,11 +346,14 @@ export default function RegistrationPage() {
           <Info className="text-sky-dark" size={20} />
         </div>
         <div>
-          <h2 className="font-heading text-2xl font-semibold mb-2">Registration Information</h2>
+          <h2 className="font-heading text-2xl font-semibold mb-2">
+            Registration Information
+          </h2>
           <p className="text-sm text-ink/70">
-            Sign up solo or as a team of up to 4 players, ages 14+. Choose a pass type
-            below, select your games, and fill in your details to confirm your spot.
-            All game equipment, tables, and event materials are provided on-site.
+            Sign up solo or as a team of up to 4 players, ages 14+. Choose a
+            pass type below, select your games, and fill in your details to
+            confirm your spot. All game equipment, tables, and event materials
+            are provided on-site.
           </p>
         </div>
       </motion.section>
@@ -359,7 +380,12 @@ export default function RegistrationPage() {
           initial={{ opacity: 0, x: 20 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
-          transition={{ type: "spring", stiffness: 150, damping: 16, delay: 0.08 }}
+          transition={{
+            type: "spring",
+            stiffness: 150,
+            damping: 16,
+            delay: 0.08,
+          }}
           whileHover={{ y: -4 }}
           className="bg-white rounded-xl2 p-6 shadow-softer flex gap-4 items-start"
         >
@@ -378,4 +404,3 @@ export default function RegistrationPage() {
     </div>
   );
 }
-
