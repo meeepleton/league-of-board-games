@@ -1109,7 +1109,7 @@ export default function PointsTable() {
         );
 
         setError(
-          "Unable to load the latest standings right now. Please try again later."
+          "Points Table Coming Soon."
         );
       } finally {
         if (!cancelled) {
