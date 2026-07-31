@@ -2,7 +2,8 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { Menu, X, Dice5 } from "lucide-react";
+import Image from "next/image";
+import { Menu, X } from "lucide-react";
 
 const LINKS = [
   { href: "/", label: "Home" },
@@ -32,10 +33,10 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 md:px-10 py-4">
         <Link href="/" className="flex items-center gap-2 font-heading text-xl font-semibold">
-          <span className="w-9 h-9 rounded-xl2 bg-cherry text-cream flex items-center justify-center rotate-[-6deg]">
-            <Dice5 size={20} />
+          <span className="w-9 h-9 rounded-xl2 flex items-center justify-center overflow-hidden">
+            <Image src="/logo.svg" alt="LoBG logo" width={36} height={36} className="object-contain" />
           </span>
-          EVENT-BG
+          LoBG
         </Link>
 
         <nav className="hidden lg:flex items-center gap-8 font-medium text-sm">
