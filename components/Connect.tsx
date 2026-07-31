@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 import { Instagram, MessageCircle, Mail, Phone } from "lucide-react";
 
 const CARDS = [
-  { icon: Instagram, label: "Instagram", value: "@meeplemasters", color: "bg-cherry/10 text-cherry" },
-  { icon: MessageCircle, label: "Discord", value: "Join the server", color: "bg-sky/10 text-sky" },
-  { icon: Phone, label: "WhatsApp", value: "+91 98765 43210", color: "bg-forest/10 text-forest" },
-  { icon: Mail, label: "Email", value: "hello@meeplemasters.in", color: "bg-gold/15 text-ink" },
+  { icon: Instagram, label: "Instagram", value: "@leagueofboardgames", color: "bg-cherry/10 text-cherry" },
+  // { icon: MessageCircle, label: "Discord", value: "Join the server", color: "bg-sky/10 text-sky" },
+  { icon: Phone, label: "WhatsApp", value: "+91 8989208432", color: "bg-forest/10 text-forest" },
+  { icon: Mail, label: "Email", value: "leagueofboardgames@gmail.com", color: "bg-gold/15 text-ink" },
 ];
 
 export default function Connect() {
@@ -22,7 +22,7 @@ export default function Connect() {
       >
         Connect With Us
       </motion.h2>
-      <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {CARDS.map((c, i) => (
           <motion.a
             key={c.label}
