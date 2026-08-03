@@ -11,6 +11,7 @@ import {
   MapPin,
   CheckCircle2,
   Loader2,
+  Gift,
 } from "lucide-react";
 import Script from "next/script";
 import { passService, ClientPass } from "@/api/client/services/pass.service"; // adjust to your actual service path
@@ -402,38 +403,75 @@ export default function RegistrationForm() {
                   transition={{ duration: 0.25 }}
                   className="bg-cream rounded-xl2 p-6 mb-8 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4"
                 >
-                  <div>
-                    <h3 className="font-heading text-xl font-semibold mb-1">
-                      {selectedPass.name}
-                    </h3>
-                    <p className="text-sm text-ink/60 max-w-sm">
-                      {selectedPass.description}
-                    </p>
-                  </div>
-                  <div className="flex flex-col items-start sm:items-end gap-2 shrink-0">
-                    {selectedPass.pricing.hasActiveDiscount &&
-                      selectedPass.pricing.discountName && (
-                        <span className="inline-block bg-gold-light/40 text-ink text-xs font-semibold px-3 py-1 rounded-full">
-                          {selectedPass.pricing.discountName}
-                        </span>
-                      )}
-                    <span className="flex items-baseline gap-2">
-                      <span className="font-heading text-2xl font-semibold text-cherry">
-                        ₹
-                        {selectedPass.pricing.hasActiveDiscount
-                          ? selectedPass.pricing.discountedPrice
-                          : selectedPass.pricing.basePrice}
-                      </span>
-                      {selectedPass.pricing.hasActiveDiscount && (
-                        <span className="text-sm text-ink/40 line-through">
-                          ₹{selectedPass.pricing.basePrice}
-                        </span>
-                      )}
-                    </span>
-                    {selectedPass.pricing.hasActiveDiscount && countdown && (
-                      <span className="text-xs font-semibold bg-cherry-light/25 text-cherry-dark px-3 py-1 rounded-full">
-                        {countdown}
-                      </span>
+                  <div className="flex flex-col w-full">
+                    {/* Top section: Name/Desc and Pricing */}
+                    <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+                      <div>
+                        <h3 className="font-heading text-xl font-semibold mb-1 text-ink">
+                          {selectedPass.name}
+                        </h3>
+                        <p className="text-sm text-ink/60 max-w-sm">
+                          {selectedPass.description}
+                        </p>
+                      </div>
+
+                      <div className="flex flex-col items-start sm:items-end gap-2 shrink-0">
+                        {selectedPass.pricing.hasActiveDiscount &&
+                          selectedPass.pricing.discountName && (
+                            <span className="inline-block bg-gold-light/40 text-ink text-xs font-semibold px-3 py-1 rounded-full">
+                              {selectedPass.pricing.discountName}
+                            </span>
+                          )}
+
+                        <div className="flex items-baseline gap-2">
+                          <span className="font-heading text-2xl font-semibold text-cherry">
+                            ₹
+                            {selectedPass.pricing.hasActiveDiscount
+                              ? selectedPass.pricing.discountedPrice
+                              : selectedPass.pricing.basePrice}
+                          </span>
+                          {selectedPass.pricing.hasActiveDiscount && (
+                            <span className="text-sm text-ink/40 line-through">
+                              ₹{selectedPass.pricing.basePrice}
+                            </span>
+                          )}
+                        </div>
+
+                        {selectedPass.pricing.hasActiveDiscount &&
+                          countdown && (
+                            <span className="text-xs font-semibold bg-cherry-light/25 text-cherry-dark px-3 py-1 rounded-full">
+                              {countdown}
+                            </span>
+                          )}
+                      </div>
+                    </div>
+
+                    {/* Kit Details Section (properly structured as its own block below) */}
+                    {selectedPass.kit && (
+                      <div className="mt-4 pt-6 border-t border-ink/5">
+                        <div className="flex items-center gap-3 mb-4">
+                          <div className="bg-white p-2 rounded-xl text-cherry shadow-sm border border-border-subtle/50">
+                            <Gift className="w-5 h-5" />
+                          </div>
+                          <div>
+                            <h4 className="font-bold text-ink text-base">
+                              {selectedPass.kit.name}
+                            </h4>
+                          </div>
+                        </div>
+
+                        <div className="flex flex-wrap gap-2.5 ml-1">
+                          {selectedPass.kit.items.map((item, idx) => (
+                            <span
+                              key={idx}
+                              className="text-sm bg-white border border-border-subtle/80 text-ink px-4 py-2 rounded-full flex items-center gap-2 shadow-sm font-medium transition-all hover:border-cherry/30 hover:shadow-md"
+                            >
+                              <CheckCircle2 className="w-4 h-4 text-cherry/80" />
+                              {item.name}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
                     )}
                   </div>
                 </motion.div>
