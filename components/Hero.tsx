@@ -4,6 +4,12 @@ import { useRef } from "react";
 import Link from "next/link";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowRight } from "lucide-react";
+import { Kanit } from "next/font/google";
+
+const kanit = Kanit({
+  subsets: ["latin"],
+  weight: ["700"], // Bold
+});
 
 const container = {
   hidden: {},
@@ -126,8 +132,8 @@ export default function Hero() {
 
         <motion.h1
           variants={item}
-          className="font-heading text-5xl sm:text-6xl md:text-7xl font-semibold leading-[1.05] mb-6"
-        >
+          className={`${kanit.className} text-5xl sm:text-6xl md:text-[80px] font-bold leading-[1.05] mb-6`}
+          >
           Bhopal&apos;s First
           <br />
           <span className="text-cherry">League Of</span> Board Games
