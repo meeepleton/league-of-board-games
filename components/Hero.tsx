@@ -127,7 +127,7 @@ export default function Hero() {
             transition={{ duration: 1.8, repeat: Infinity, ease: "easeInOut" }}
             className="w-2 h-2 rounded-full bg-cherry inline-block"
           />
-          12–14 Sep 2026 ·  Bhopal Meeps
+          30 Aug - 27 Sept 2026 ·  Meepleton Cafe, Bhopal
         </motion.span>
 
         <motion.h1
@@ -140,7 +140,7 @@ export default function Hero() {
         </motion.h1>
 
         <motion.p variants={item} className="text-lg text-ink/70 max-w-2xl mx-auto mb-10">
-          Strategy games, social deduction, euro games and party games — three days
+          Strategy games, social deduction, euro games and party games — thirty days
           of competitive tabletop fun for every kind of player.
         </motion.p>
 

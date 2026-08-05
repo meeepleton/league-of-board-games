@@ -198,6 +198,16 @@ const barMap: Record<string, string> = {
   tangerine: "bg-tangerine",
 };
 
+// Only add entries here for games whose background needs shifting.
+// Anything not listed here defaults to "center".
+const positionMap: Record<string, string> = {
+  "get-cooked": "left center",
+  azul:"right center",
+  "7-wonders":"right center",
+  "brass-birmingham":"left center",
+  
+};
+
 export default function GamesGrid() {
   return (
     <section className="max-w-7xl mx-auto px-6 md:px-10 py-20">
@@ -226,8 +236,11 @@ export default function GamesGrid() {
             <Link href={`/games/${g.id}`} className="block h-full">
               <motion.div
                 whileHover={{ y: -8 }}
-                className="relative overflow-hidden rounded-xl2 shadow-softer h-full min-h-[260px] bg-cover bg-center"
-                style={{ backgroundImage: `url(${g.image})` }}
+                className="relative overflow-hidden rounded-xl2 shadow-softer h-full min-h-[260px] bg-cover"
+                style={{
+                  backgroundImage: `url(${g.image})`,
+                  backgroundPosition: positionMap[g.id] || "center",
+                }}
               >
                 {/* colored top accent bar */}
                 <span className={`absolute top-0 left-0 right-0 h-1.5 z-10 ${barMap[g.color]}`} aria-hidden />
