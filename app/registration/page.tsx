@@ -424,7 +424,7 @@ export default function RegistrationPage() {
           Registration
         </h1>
         <p className="text-ink/60">
-          Registrations open 1 Aug 2026 and close 5 Sep 2026.
+          Registrations open 5 Aug 2026 and close 28 Aug 2026.
         </p>
       </motion.div>
 
@@ -467,7 +467,7 @@ export default function RegistrationPage() {
           </div>
           <div>
             <h3 className="font-semibold mb-1">Registration Window</h3>
-            <p className="text-sm text-ink/60">1 Aug – 5 Sep 2026</p>
+            <p className="text-sm text-ink/60">5 Aug – 28 Aug 2026</p>
           </div>
         </motion.div>
         <motion.div
@@ -488,7 +488,7 @@ export default function RegistrationPage() {
           </div>
           <div>
             <h3 className="font-semibold mb-1">Event Dates</h3>
-            <p className="text-sm text-ink/60">12 – 14 Sep 2026</p>
+            <p className="text-sm text-ink/60">29 Aug - 27 Sept 2026</p>
           </div>
         </motion.div>
       </section>

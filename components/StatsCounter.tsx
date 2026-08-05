@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { Users, Dices, CalendarDays, Trophy } from "lucide-react";
 
 const STATS = [
-  { icon: Users, value: 500, suffix: "+", label: "Players Expected", tint: "bg-forest/10 text-forest" },
+  { icon: Users, value: 200, suffix: "+", label: "Players Expected", tint: "bg-forest/10 text-forest" },
   { icon: Dices, value: 17, suffix: "", label: "Games Featured", tint: "bg-cherry/10 text-cherry" },
   { icon: CalendarDays, value: 3, suffix: "", label: "Days of Play", tint: "bg-gold/20 text-ink" },
   { icon: Trophy, value: 5, suffix: "L+", label: "Prize Pool (₹)", tint: "bg-tangerine/10 text-tangerine" },
