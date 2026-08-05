@@ -4,6 +4,12 @@ import { useRef } from "react";
 import Link from "next/link";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowRight } from "lucide-react";
+import { Kanit } from "next/font/google";
+
+const kanit = Kanit({
+  subsets: ["latin"],
+  weight: ["700"], // Bold
+});
 
 const container = {
   hidden: {},
@@ -121,20 +127,20 @@ export default function Hero() {
             transition={{ duration: 1.8, repeat: Infinity, ease: "easeInOut" }}
             className="w-2 h-2 rounded-full bg-cherry inline-block"
           />
-          12–14 Sep 2026 ·  Bhopal Meeps
+          30 Aug - 27 Sept 2026 ·  Meepleton Cafe, Bhopal
         </motion.span>
 
         <motion.h1
           variants={item}
-          className="font-heading text-5xl sm:text-6xl md:text-7xl font-semibold leading-[1.05] mb-6"
-        >
+          className={`${kanit.className} text-5xl sm:text-6xl md:text-[80px] font-bold leading-[1.05] mb-6`}
+          >
           Bhopal&apos;s First
           <br />
           <span className="text-cherry">League Of</span> Board Games
         </motion.h1>
 
         <motion.p variants={item} className="text-lg text-ink/70 max-w-2xl mx-auto mb-10">
-          Strategy games, social deduction, euro games and party games — three days
+          Strategy games, social deduction, euro games and party games — thirty days
           of competitive tabletop fun for every kind of player.
         </motion.p>
 
