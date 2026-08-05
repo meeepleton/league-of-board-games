@@ -28,6 +28,14 @@ export interface ClientPass {
     discountEndsAtMs: number | null;
   };
   games: ClientGame[];
+  kit?: {
+    id: number;
+    name: string;
+    items: {
+      id: number;
+      name: string;
+    }[];
+  }
 }
 
 interface ApiResponse<T> {
