@@ -29,6 +29,19 @@ declare global {
  * (discountEndsAtMs) is always compared against the current time as seen
  * in Asia/Kolkata, regardless of the visitor's own timezone.
  */
+export type GameDifficulty = "LIGHT" | "MEDIUM" | "HEAVY";
+const getDifficultyStyles = (difficulty: GameDifficulty) => {
+  switch (difficulty) {
+    case "LIGHT":
+      return "bg-forest-light/25 text-forest-dark border-forest-light/40";
+    case "MEDIUM":
+      return "bg-gold-light/40 text-ink border-gold-light/50";
+    case "HEAVY":
+      return "bg-cherry-light/25 text-cherry-dark border-cherry-light/40";
+    default:
+      return "border-ink/15 text-ink/60 bg-transparent";
+  }
+};
 function useCountdown(endsAtMs: number | undefined | null, active: boolean) {
   const [timeLeft, setTimeLeft] = useState("");
 
@@ -182,6 +195,9 @@ export default function RegistrationForm() {
   const gamesValid =
     !!selectedPass &&
     selectedGames.length === selectedPass.requiredSelectionCount;
+  const difficultGamesSelected = selectedPass?.games.filter(
+    (g) => selectedGames.includes(g.id) && g.difficulty === "HEAVY",
+  ).length;
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -203,6 +219,15 @@ export default function RegistrationForm() {
     if (selectedPass && !gamesValid) {
       newErrors.push(
         `Select exactly ${selectedPass.requiredSelectionCount} game${selectedPass.requiredSelectionCount > 1 ? "s" : ""}.`,
+      );
+    }
+    if (
+      selectedPass &&
+      selectedPass.minimumDifficultGamesToSelect > 0 &&
+      (difficultGamesSelected ?? 0) < selectedPass.minimumDifficultGamesToSelect
+    ) {
+      newErrors.push(
+        `Select at least ${selectedPass.minimumDifficultGamesToSelect} Heavy game${selectedPass.minimumDifficultGamesToSelect > 1 ? "s" : ""}.`,
       );
     }
 
@@ -542,13 +567,23 @@ export default function RegistrationForm() {
                                 : `${g.availableSlots} slots left`}
                             </span>
                           </div>
-                          <div className="flex gap-2 mt-2">
+                          <div className="flex flex-wrap gap-2 mt-2">
                             <span className="text-[11px] border border-ink/15 text-ink/60 px-2 py-0.5 rounded-full">
                               {g.requiredPlayers} players
                             </span>
                             <span className="text-[11px] border border-ink/15 text-ink/60 px-2 py-0.5 rounded-full">
                               {g.estimatedRuntimeMinutes} min
                             </span>
+                            {g.difficulty && (
+                              <span
+                                className={`text-[11px] font-medium border px-2 py-0.5 rounded-full ${getDifficultyStyles(
+                                  g.difficulty,
+                                )}`}
+                              >
+                                {g.difficulty.charAt(0) +
+                                  g.difficulty.slice(1).toLowerCase()}
+                              </span>
+                            )}
                           </div>
                         </div>
                       </label>
