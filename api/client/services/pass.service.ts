@@ -6,6 +6,7 @@ export interface ClientGame {
   id: number;
   name: string;
   genre: string;
+  difficulty : "LIGHT" | "HEAVY" | "MEDIUM";
   requiredPlayers: number;
   maxSlots: number;
   estimatedRuntimeMinutes: number;
@@ -18,6 +19,7 @@ export interface ClientPass {
   name: string;
   description: string;
   requiredSelectionCount: number;
+  minimumDifficultGamesToSelect: number;
   pricing: {
     basePrice: number;
     discountedPrice: number;
