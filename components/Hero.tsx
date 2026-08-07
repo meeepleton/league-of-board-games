@@ -127,7 +127,7 @@ export default function Hero() {
             transition={{ duration: 1.8, repeat: Infinity, ease: "easeInOut" }}
             className="w-2 h-2 rounded-full bg-cherry inline-block"
           />
-          30 Aug - 27 Sept 2026 ·  Meepleton Cafe, Bhopal
+          29 Aug - 27 Sept 2026 ·  Meepleton Cafe, Bhopal
         </motion.span>
 
         <motion.h1
