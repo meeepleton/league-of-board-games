@@ -121,7 +121,7 @@ export default function EventTimeline() {
         transition={{ duration: 0.5 }}
         className="font-heading text-4xl font-semibold text-center mb-14"
       >
-        Highlight Events
+        Key Details
       </motion.h2>
 
       <div className="relative">

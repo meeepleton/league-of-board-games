@@ -184,9 +184,98 @@
 
 
 // with background image 
+// "use client";
+
+// import Link from "next/link";
+// import { motion } from "framer-motion";
+// import games from "@/data/games.json";
+
+// const barMap: Record<string, string> = {
+//   forest: "bg-forest",
+//   cherry: "bg-cherry",
+//   sky: "bg-sky",
+//   gold: "bg-gold",
+//   tangerine: "bg-tangerine",
+// };
+
+// // Only add entries here for games whose background needs shifting.
+// // Anything not listed here defaults to "center".
+// const positionMap: Record<string, string> = {
+//   "get-cooked": "left center",
+//   azul:"right center",
+//   "7-wonders":"right center",
+//   "brass-birmingham":"left center",
+  
+// };
+
+// export default function GamesGrid() {
+//   return (
+//     <section className="max-w-7xl mx-auto px-6 md:px-10 py-20">
+//       <motion.div
+//         initial={{ opacity: 0, y: 16 }}
+//         whileInView={{ opacity: 1, y: 0 }}
+//         viewport={{ once: true }}
+//         transition={{ duration: 0.5 }}
+//         className="text-center mb-12"
+//       >
+//         <h2 className="font-heading text-4xl font-semibold mb-3">Games Included</h2>
+//         <p className="text-ink/60 max-w-xl mx-auto">
+//           Eight game categories, dozens of tables — pick your favourite or discover a new one.
+//         </p>
+//       </motion.div>
+
+//       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+//         {games.map((g, i) => (
+//           <motion.div
+//             key={g.id}
+//             initial={{ opacity: 0, y: 28, scale: 0.94 }}
+//             whileInView={{ opacity: 1, y: 0, scale: 1 }}
+//             viewport={{ once: true, margin: "-40px" }}
+//             transition={{ type: "spring", stiffness: 140, damping: 16, delay: (i % 4) * 0.07 }}
+//           >
+//             <Link href={`/games/${g.id}`} className="block h-full">
+//               <motion.div
+//                 whileHover={{ y: -8 }}
+//                 className="relative overflow-hidden rounded-xl2 shadow-softer h-full min-h-[260px] bg-cover"
+//                 style={{
+//                   backgroundImage: `url(${g.image})`,
+//                   backgroundPosition: positionMap[g.id] || "center",
+//                 }}
+//               >
+//                 {/* colored top accent bar */}
+//                 <span className={`absolute top-0 left-0 right-0 h-1.5 z-10 ${barMap[g.color]}`} aria-hidden />
+
+//                 {/* dark gradient overlay for white text readability */}
+//                 <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-black/10" aria-hidden />
+
+//                 {/* text content, pinned to bottom */}
+//                 <div className="relative z-10 flex flex-col justify-end h-full p-6">
+//                   <span className="text-xs font-semibold uppercase tracking-wide text-white/70">
+//                     {g.category}
+//                   </span>
+//                   <h3 className="font-heading text-xl font-semibold mt-1 mb-2 text-white">
+//                     {g.name}
+//                   </h3>
+//                   <p className="text-sm text-white/85">{g.description}</p>
+//                 </div>
+//               </motion.div>
+//             </Link>
+//           </motion.div>
+//         ))}
+//       </div>
+//     </section>
+//   );
+// }
+
+
+
+
+
+// with FILTER BAR for games EASY/MED/HARD/ALL/Special
 "use client";
 
 import Link from "next/link";
+import { useRouter, useSearchParams } from "next/navigation";
 import { motion } from "framer-motion";
 import games from "@/data/games.json";
 
@@ -198,25 +287,56 @@ const barMap: Record<string, string> = {
   tangerine: "bg-tangerine",
 };
 
-// Only add entries here for games whose background needs shifting.
-// Anything not listed here defaults to "center".
 const positionMap: Record<string, string> = {
   "get-cooked": "left center",
-  azul:"right center",
-  "7-wonders":"right center",
-  "brass-birmingham":"left center",
-  
 };
 
+const DIFFICULTY_CONFIG: Record<string, { label: string; badge: string }> = {
+  Easy: { label: "Easy", badge: "bg-forest text-white" },
+  Medium: { label: "Medium", badge: "bg-sky text-white" },
+  Hard: { label: "Heavy", badge: "bg-cherry text-white" },
+  Special: { label: "Special", badge: "bg-gold text-ink" },
+};
+
+const FILTERS: { value: string; label: string }[] = [
+  { value: "All", label: "All" },
+  { value: "Easy", label: "Easy" },
+  { value: "Medium", label: "Medium" },
+  { value: "Hard", label: "Heavy" },
+  { value: "Special", label: "Special" },
+];
+
 export default function GamesGrid() {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  const activeFilter = searchParams.get("difficulty") || "All";
+
+  const setActiveFilter = (value: string) => {
+    const params = new URLSearchParams(searchParams.toString());
+    if (value === "All") {
+      params.delete("difficulty");
+    } else {
+      params.set("difficulty", value);
+    }
+    const query = params.toString();
+    router.push(`/league-format${query ? `?${query}` : ""}#games`, { scroll: false });
+  };
+
+  const counts = FILTERS.reduce<Record<string, number>>((acc, f) => {
+    acc[f.value] = f.value === "All" ? games.length : games.filter((g) => g.difficulty === f.value).length;
+    return acc;
+  }, {});
+
+  const filteredGames = activeFilter === "All" ? games : games.filter((g) => g.difficulty === activeFilter);
+
   return (
-    <section className="max-w-7xl mx-auto px-6 md:px-10 py-20">
+    <section id="games" className="max-w-7xl mx-auto px-6 md:px-10 py-20">
       <motion.div
         initial={{ opacity: 0, y: 16 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="text-center mb-12"
+        className="text-center mb-8"
       >
         <h2 className="font-heading text-4xl font-semibold mb-3">Games Included</h2>
         <p className="text-ink/60 max-w-xl mx-auto">
@@ -224,44 +344,76 @@ export default function GamesGrid() {
         </p>
       </motion.div>
 
+      {/* Difficulty filter tabs */}
+      <div className="flex flex-wrap items-center justify-center gap-3 mb-12">
+        {FILTERS.map((f) => {
+          const isActive = activeFilter === f.value;
+          const config = f.value === "All" ? null : DIFFICULTY_CONFIG[f.value];
+          return (
+            <button
+              key={f.value}
+              onClick={() => setActiveFilter(f.value)}
+              className={`px-4 py-2 rounded-full text-sm font-semibold transition-all border-2 ${
+                isActive
+                  ? f.value === "All"
+                    ? "bg-ink text-cream border-ink"
+                    : `${config?.badge} border-transparent`
+                  : "bg-transparent text-ink/60 border-ink/15 hover:border-ink/30"
+              }`}
+            >
+              {f.label} ({counts[f.value]})
+            </button>
+          );
+        })}
+      </div>
+
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        {games.map((g, i) => (
-          <motion.div
-            key={g.id}
-            initial={{ opacity: 0, y: 28, scale: 0.94 }}
-            whileInView={{ opacity: 1, y: 0, scale: 1 }}
-            viewport={{ once: true, margin: "-40px" }}
-            transition={{ type: "spring", stiffness: 140, damping: 16, delay: (i % 4) * 0.07 }}
-          >
-            <Link href={`/games/${g.id}`} className="block h-full">
-              <motion.div
-                whileHover={{ y: -8 }}
-                className="relative overflow-hidden rounded-xl2 shadow-softer h-full min-h-[260px] bg-cover"
-                style={{
-                  backgroundImage: `url(${g.image})`,
-                  backgroundPosition: positionMap[g.id] || "center",
-                }}
-              >
-                {/* colored top accent bar */}
-                <span className={`absolute top-0 left-0 right-0 h-1.5 z-10 ${barMap[g.color]}`} aria-hidden />
+        {filteredGames.map((g, i) => {
+          const difficulty = DIFFICULTY_CONFIG[g.difficulty];
+          return (
+            <motion.div
+              key={g.id}
+              layout
+              initial={{ opacity: 0, y: 28, scale: 0.94 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              exit={{ opacity: 0, scale: 0.9 }}
+              transition={{ type: "spring", stiffness: 140, damping: 16, delay: (i % 4) * 0.05 }}
+            >
+              <Link href={`/games/${g.id}`} className="block h-full">
+                <motion.div
+                  whileHover={{ y: -8 }}
+                  className="relative overflow-hidden rounded-xl2 shadow-softer h-full min-h-[260px] bg-cover"
+                  style={{
+                    backgroundImage: `url(${g.image})`,
+                    backgroundPosition: positionMap[g.id] || "center",
+                  }}
+                >
+                  <span className={`absolute top-0 left-0 right-0 h-1.5 z-10 ${barMap[g.color]}`} aria-hidden />
 
-                {/* dark gradient overlay for white text readability */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-black/10" aria-hidden />
+                  {difficulty && (
+                    <span
+                      className={`absolute top-4 right-4 z-20 text-[11px] font-bold uppercase tracking-wide px-2.5 py-1 rounded-full shadow-softer ${difficulty.badge}`}
+                    >
+                      {difficulty.label}
+                    </span>
+                  )}
 
-                {/* text content, pinned to bottom */}
-                <div className="relative z-10 flex flex-col justify-end h-full p-6">
-                  <span className="text-xs font-semibold uppercase tracking-wide text-white/70">
-                    {g.category}
-                  </span>
-                  <h3 className="font-heading text-xl font-semibold mt-1 mb-2 text-white">
-                    {g.name}
-                  </h3>
-                  <p className="text-sm text-white/85">{g.description}</p>
-                </div>
-              </motion.div>
-            </Link>
-          </motion.div>
-        ))}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-black/10" aria-hidden />
+
+                  <div className="relative z-10 flex flex-col justify-end h-full p-6">
+                    <span className="text-xs font-semibold uppercase tracking-wide text-white/70">
+                      {g.category}
+                    </span>
+                    <h3 className="font-heading text-xl font-semibold mt-1 mb-2 text-white">
+                      {g.name}
+                    </h3>
+                    <p className="text-sm text-white/85">{g.description}</p>
+                  </div>
+                </motion.div>
+              </Link>
+            </motion.div>
+          );
+        })}
       </div>
     </section>
   );
