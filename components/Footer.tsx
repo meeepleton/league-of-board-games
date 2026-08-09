@@ -93,9 +93,9 @@ export default function Footer() {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <h3 className="font-heading text-2xl mb-3">Meeple Masters</h3>
+          <h3 className="font-heading text-2xl mb-3">League of Board Games</h3>
           <p className="text-cream/70 text-sm leading-relaxed">
-            Bhopal&apos;s firstever board gaming league and championship — three days of
+            Bhopal&apos;s firstever board gaming league and championship — thirty days of
             strategy, deduction, and dice.
           </p>
         </motion.div>
@@ -162,7 +162,7 @@ export default function Footer() {
         </motion.div>
       </div>
       <div className="border-t border-cream/10 text-center text-xs text-cream/50 py-6">
-        © 2026 Meeple Masters National League. All rights reserved.
+        © 2026 League of Board Games.
       </div>
     </footer>
   );

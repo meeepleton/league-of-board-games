@@ -1,27 +1,162 @@
 [
-  { "section": "General Rules", "items": [
-    { "q": "Who can participate?", "a": "Anyone above 14 years of age can register, individually or as part of a team of up to 4 players." },
-    { "q": "What should I bring?", "a": "A valid ID, your registration confirmation, and your competitive spirit. All games and equipment are provided." }
-  ]},
-  { "section": "League Rules", "items": [
-    { "q": "How is the league stage scored?", "a": "Each match win awards 3 points, a draw 1 point, and a loss 0 points. Standings are ranked by total points, then head-to-head record." },
-    { "q": "How do knockouts work?", "a": "The top 8 players from the league stage advance to single-elimination knockouts, followed by semi finals and the grand final." }
-  ]},
-  { "section": "Game Rules", "items": [
-    { "q": "Which rulebook version is used?", "a": "The latest official publisher rulebook for each game is used, with league-specific time limits posted at each table." },
-    { "q": "Are house rules allowed?", "a": "No house rules are permitted during competitive rounds. Casual play areas are free-form." }
-  ]},
-  { "section": "Sportsmanship", "items": [
-    { "q": "What is expected of players?", "a": "Respectful conduct, honest play, and timely arrival at your assigned table are expected of every participant." }
-  ]},
-  { "section": "Code of Conduct", "items": [
-    { "q": "Is harassment tolerated?", "a": "No. Any form of harassment, cheating, or disruptive behaviour results in immediate review by the organising committee." }
-  ]},
-  { "section": "Disqualification", "items": [
-    { "q": "What leads to disqualification?", "a": "Repeated rule violations, unsporting conduct, or failure to appear at two scheduled matches without notice." }
-  ]},
-  { "section": "FAQ", "items": [
-    { "q": "Can I switch games after registering?", "a": "Yes, up until the registration deadline. Contact the help desk or email us to make changes." },
-    { "q": "Is there a spectator pass?", "a": "Yes, spectator passes are available at the venue and cover all three days." }
-  ]}
+  {
+    "section": "General Rules",
+    "items": [
+      {
+        "q": "Who can participate?",
+        "a": "Anyone aged 14 years or above who has completed registration for the event may participate."
+      },
+      {
+        "q": "What should I bring?",
+        "a": "Please carry a valid photo ID and your registration confirmation (digital or printed). All board games, components, and score sheets will be provided by the organisers."
+      },
+      {
+        "q": "When should I arrive?",
+        "a": "Participants should report at least 20 minutes before their first scheduled match. Late arrivals may receive penalties or forfeit their match."
+      },
+      {
+        "q": "Can I leave the venue between rounds?",
+        "a": "Yes, but ensure you return before your next scheduled match. Missing your match may result in a forfeit."
+      },
+      {
+        "q": "Who makes the final decisions?",
+        "a": "All decisions made by the tournament organisers and judges are final."
+      }
+    ]
+  },
+  {
+    "section": "Tournament Format",
+    "items": [
+      {
+        "q": "How are matches scheduled?",
+        "a": "Players will receive their match schedule before the tournament begins. Please check the schedule board regularly for updates."
+      },
+      {
+        "q": "How are winners decided?",
+        "a": "Each game follows its official victory conditions. Rankings are determined by the tournament format announced before the event."
+      },
+      {
+        "q": "What happens in case of a tie?",
+        "a": "Tie-break procedures vary by game and will follow the official rulebook or tournament-specific guidelines announced by the organisers."
+      },
+      {
+        "q": "Can match timings change?",
+        "a": "Yes. Organisers may adjust the schedule if required. Participants should pay attention to announcements throughout the event."
+      }
+    ]
+  },
+  {
+    "section": "Game Rules",
+    "items": [
+      {
+        "q": "Which rulebook is followed?",
+        "a": "The latest official published rules for each game will be used throughout the tournament."
+      },
+      {
+        "q": "Are house rules allowed?",
+        "a": "No. Only the official rules and tournament-specific clarifications announced by the organisers will be followed."
+      },
+      {
+        "q": "What if a rules dispute occurs?",
+        "a": "Pause the game immediately and call a tournament judge. Do not continue play until the ruling has been made."
+      },
+      {
+        "q": "Can players undo moves?",
+        "a": "Once new information has been revealed or another player has acted, moves cannot be taken back unless permitted by a judge."
+      },
+      {
+        "q": "Are phones allowed during matches?",
+        "a": "Phones should remain on silent mode. Using phones for strategy discussions or outside assistance during a match is prohibited."
+      }
+    ]
+  },
+  {
+    "section": "Player Responsibilities",
+    "items": [
+      {
+        "q": "What is expected from participants?",
+        "a": "Players are expected to understand the basic rules of the games they have registered for and be ready to play when called."
+      },
+      {
+        "q": "Can I receive help during a match?",
+        "a": "No. Coaching, strategy advice, or assistance from spectators or other participants is not permitted."
+      },
+      {
+        "q": "How should game components be handled?",
+        "a": "Please treat all game components with care. Any intentional damage or misuse may result in penalties."
+      },
+      {
+        "q": "What if I need to leave during a match?",
+        "a": "Inform the table judge or organiser before leaving. Excessive delays may result in penalties depending on the situation."
+      }
+    ]
+  },
+  {
+    "section": "Sportsmanship",
+    "items": [
+      {
+        "q": "What behaviour is expected?",
+        "a": "Players should demonstrate honesty, fairness, respect, and good sportsmanship throughout the tournament."
+      },
+      {
+        "q": "How should players interact with opponents?",
+        "a": "Treat every participant respectfully regardless of experience or results. Unsporting behaviour will not be tolerated."
+      },
+      {
+        "q": "Can I celebrate after winning?",
+        "a": "Yes, but celebrations should remain respectful and should not disturb other ongoing matches."
+      }
+    ]
+  },
+  {
+    "section": "Code of Conduct",
+    "items": [
+      {
+        "q": "Is cheating allowed?",
+        "a": "No. Any attempt to cheat, intentionally break rules, manipulate game components, or gain unfair advantage may lead to immediate disqualification."
+      },
+      {
+        "q": "Can organisers remove participants?",
+        "a": "Yes. Organisers reserve the right to remove any participant whose behaviour negatively affects the event or other attendees."
+      }
+    ]
+  },
+  {
+    "section": "Disqualification",
+    "items": [
+      {
+        "q": "What can lead to disqualification?",
+        "a": "Cheating, repeated rule violations, abusive behaviour, deliberate disruption of matches, damaging event property, or refusing to follow organiser instructions."
+      },
+      {
+        "q": "What happens after disqualification?",
+        "a": "The player's remaining matches will be forfeited and entry fees will not be refunded unless otherwise decided by the organisers."
+      }
+    ]
+  },
+  {
+    "section": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "Can I change my registered game?",
+        "a": "Game changes are permitted only until the registration deadline and are subject to slot availability."
+      },
+      {
+        "q": "Can spectators watch matches?",
+        "a": "Yes, provided they remain silent, do not interfere with play, and follow organiser instructions."
+      },
+      {
+        "q": "Will food and drinks be available?",
+        "a": "Food and beverages may be available at the venue. Please keep them away from game tables and components."
+      },
+      {
+        "q": "Can I take photos or videos?",
+        "a": "Yes, provided they do not disturb players or reveal hidden game information during active matches."
+      },
+      {
+        "q": "Who should I contact if I have questions?",
+        "a": "Visit the tournament help desk or speak to any event volunteer or organiser during the event."
+      }
+    ]
+  }
 ]
