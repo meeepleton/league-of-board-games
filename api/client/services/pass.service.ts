@@ -6,10 +6,10 @@ export interface ClientGame {
   id: number;
   name: string;
   genre: string;
-  difficulty : "LIGHT" | "HEAVY" | "MEDIUM";
-  requiredPlayers: number;
+  difficulty : "LIGHT" | "HEAVY" | "MEDIUM" | null;
+  requiredPlayers: number | null;
   maxSlots: number;
-  estimatedRuntimeMinutes: number;
+  estimatedRuntimeMinutes: number | null;
   currentBookedSlots: number;
   availableSlots: number;
 }
