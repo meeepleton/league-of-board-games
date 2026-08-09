@@ -53,38 +53,37 @@
     "longDescription": "Anomia plays off the fact that our minds are positively brimming with all sorts of random information—things to eat, pop songs, websites, and more. While it is usually effortless to name a frozen food or a dog breed, your brain works entirely differently under the pressure of a fast-paced head-to-head match!\n\nPlayers take turns drawing and revealing cards from a central deck into their personal display pile, constantly watching for matching symbols on opponent cards. The core game mechanics include:\n\n- Face-Off Duels: When the symbol on your drawn card matches another player's top card, a face-off instantly begins. You must shout out an example of the category listed on your opponent's card before they can name the category on yours.\n\n- Claiming Rewards: The first player to successfully blurt out a correct answer claims their opponent's top card as a point, placing it face-down in their personal score pile.\n\n- Cascading Face-Offs: Winning a card often reveals a new top card in a player's pile, which can instantly trigger consecutive face-offs across the table in rapid succession.\n\n- Wild Cards: Special wild cards introduce dual-symbol matches between previously non-matching cards, dramatically raising the level of attention and chaos required to stay ahead.\n\nThe game continues until the draw piles are completely exhausted, and the player with the most claimed cards at the end of the game wins."
   },
   {
-    "id": "get-cooked",
-    "name": "Get Cooked",
-    "category": "Party Game",
-    "description": "Race to complete recipes and gather stars while sabotaging your rival chefs in this chaotic kitchen card game.",
-    "color": "sky",
-    "players": "2–6 players",
-    "duration": "15–30 min",
+
+    "id": "sequence",
+    "name": "Sequence",
+    "category": "Strategy",
+    "description": "Blend cards and board play to form a sequence of five chips before your rivals.",
+    "color": "forest",
+    "players": "2–12 players",
+    "duration": "30–45 min",
     "ageRange": "8+",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "tags": [
-      "Party",
-      "Card Game",
-      "Resource Management",
-      "Take That",
-      "Press Your Luck"
-   ],
-   "howToPlayVideo": "https://youtu.be/10jlhKyym_E?si=fJdbxxa4EL_fjHKu",
-   "howToPlay": [
-      "Collect pantry cards to complete recipes and earn stars (1–3 stars based on recipe difficulty).",
-      "Sell unneeded pantry cards to buy new recipes or powerful action cards.",
-      "Use action cards to advance your progress or disrupt your opponents' plans.",
-      "Watch out for game-changing 'Get Cooked' event cards hidden in the deck.",
-      "First player to reach 6 stars wins!"
+      "Board & Cards",
+      "Team Play",
+      "Strategy",
+      "Abstract"
     ],
-    "image": "/games/get-cooked.jpg",
-    "longDescription": "Get Cooked is a culinary-themed card game where players compete to finish recipes and gather stars. Recipes award between 1 and 3 stars depending on their difficulty, and the first player to accumulate 6 stars claims victory.\n\nTo complete recipes, players must collect matching pantry cards and stack them onto their active recipe cards. Pantry cards are categorized into three color-coded rarity tiers that also serve as an in-game currency. Players can sell surplus cards to purchase fresh recipes or acquire dynamic action cards to alter the game's momentum and sabotage rival chefs.\n\nHowever, searching for power carries risks. Digging deep through the action deck eventually uncovers chaotic 'Get Cooked' event cards—random table-wide effects capable of turning the entire game upside down. Blending strategic resource management with unpredictable twists, Get Cooked delivers a mix of luck, tactical timing, and hilarious pandemonium as players scramble for those final winning stars."
+    "howToPlayVideo": "https://youtu.be/LDttsej2d9o?si=KO_LPt1zozG_9WBG",
+    "howToPlay": [
+      "Play a card from your hand and place a chip on the matching board space.",
+      "Jacks let you place or remove chips freely.",
+      "Form a line of five chips — horizontally, vertically, or diagonally.",
+      "First team or player to complete the required sequences wins."
+    ],
+    "image": "/games/sequence.jpg",
+    "longDescription": "Sequence is an engaging strategy game that seamlessly blends card play with classic board-positioning mechanics. The game board displays every card face—excluding the Jacks—from two standard 52-card decks, organized into a clean 10x10 grid. The four corner spaces act as neutral free zones, counting as an active chip for every player simultaneously to help build tactical advantage.\n\nPlayers or teams take turns playing a card from their hand to place a colored marker chip onto a matching space on the board, working to connect chips while blocking their opponents' momentum. The game revolves around several key tactical elements:\n\n- Forming Sequences: Race to align five continuous marker chips of the same color horizontally, vertically, or diagonally across the board.\n\n- Wild Two-Eyed Jacks: Play a Two-Eyed Jack as a wild card to place a marker chip on any open space on the board, filling critical gaps in your line.\n\n- Removal One-Eyed Jacks: Play a One-Eyed Jack to target and remove an opponent's marker chip from the board, frustrating their plans and breaking up potential sequences.\n\n- Neutral Corners: Utilize the four open corner spaces strategically, as they serve as free chips for all players to complete overlapping lines.\n\nThe game ends instantly when a player or team successfully completes the required number of five-chip sequences, claiming victory over the board."
   },
   {
-    "id": "exploding-kittens",
-    "name": "Exploding Kittens",
+    "id": "exploding-minions",
+    "name": "Exploding Minions",
     "category": "Party Game",
-    "description": "A card game of chance and strategy — avoid the exploding kitten, or defuse it in time.",
+    "description": "A Minions-powered card game of chance and sabotage — avoid the exploding minion or clone cards to survive.",
     "color": "tangerine",
     "players": "2–5 players",
     "duration": "15 min",
@@ -94,18 +93,19 @@
       "Card Game",
       "Push Your Luck",
       "Party",
-      "Card Game",
-      "Animals"
+      "Take That",
+      "Humor"
     ],
-    "howToPlayVideo": "https://youtu.be/kAkRKuv5Rts?si=EAFBh4JXDeNkd69Y",
+    "howToPlayVideo": "https://youtu.be/66d72WEyJEU?si=CqEc6HkAZwt7bFxd",
     "howToPlay": [
-      "Draw a card each turn — avoid drawing an Exploding Kitten.",
-      "Use action cards to skip, peek, or shuffle the deck to survive.",
-      "Defuse an Exploding Kitten if you draw one and have a Defuse card.",
-      "Last player left in the game wins."
+      "Take turns drawing cards from the deck — avoid drawing an Exploding Minion.",
+      "Play action cards to peek at the deck, force opponents to draw, or shuffle.",
+      "Use Defuse cards (and Magical Bananas) to safely disarm drawn Exploding Minions.",
+      "Leverage the new Clone card to copy the abilities of played action cards.",
+      "Be the last player remaining to win the game."
     ],
-    "image": "/games/exploding-kittens.jpg",
-    "longDescription": "Exploding Kittens is a highly strategic, kitty-powered version of Russian Roulette. Players take turns drafting cards from a shared deck, moving through the game with caution, as drawing a single Exploding Kitten immediately knocks a player out of the match. The tension scales dramatically with every turn, as the dwindling draw pile steadily increases the mathematical probability of encountering a fatal feline outburst.\n\nThe core deck is packed with tactical tools that allow players to manipulate the order of draw cards, mitigate risk, and sabotage opponents before taking a draw step:\n\n- Defuse the Danger: Neutralize drawn Exploding Kittens using laser pointers, catnip sandwiches, or belly rubs to safely insert the kitten back into the deck at any secret location of your choice.\n\n- Attack and Force Turns: Pass your mandatory draw step to the next player while forcing them to take multiple consecutive turns in a row.\n\n- Manipulate the Deck: Use specialized action cards to peek at the top three cards of the deck, alter their order, or thoroughly shuffle the draw pile to disrupt an opponent's turn.\n\n- Skip and Steal: Bypass your draw requirement instantly with Skip cards, or play matching Cat card pairs to steal valuable defuses and utility cards directly from an opponent's hand.\n\n- Cancel Opponent Actions: Play Nope cards at any moment to invalidate an opponent's action, creating chaotic chains of counters and re-counters.\n\nPlayers continue managing their hand, neutralizing threats, and directing danger toward rivals until only one survivor remains standing, declaring them the ultimate winner."
+    "image": "/games/exploding-minions.jpg",
+    "longDescription": "Exploding Minions is a Minions-powered version of Russian Roulette where players compete to outlast their rivals in a fast-paced game of strategy, luck, and chaotic sabotage. Players take turns drawing cards from a central deck until someone draws an Exploding Minion, which immediately eliminates them from the game. With every card drawn, the tension escalates dramatically as fewer cards remain in the deck, drastically increasing the chances of uncovering a game-ending explosion.\n\nTo survive, players must strategically play action cards from their hand to manipulate the deck, pass turns, and throw opponents into dangerous draw situations:\n\n- Avoid the Danger: Play action cards to peek at upcoming cards before drawing, force opponents to take multiple consecutive turns, or shuffle the deck to scramble the odds.\n\n- Disarm Explosions: Safely defuse Exploding Kittens and Minions using secret tools like magical bananas, re-inserting the explosive card secretly back into the draw pile.\n\n- Clone Abilities: Minions bring a brand-new game-changing mechanic with the Clone card, allowing players to copy the effects of the card played directly before it, multiplying power and adding fresh layers of tactical chaos.\n\nManage your hand carefully, manipulate the odds, and stay one step ahead of your opponents until only one survivor remains standing to claim victory!"
   },
   {
     "id": "next-station-london",
@@ -330,7 +330,7 @@
     "players": "1–6 players",
     "duration": "30–75 min",
     "ageRange": "10+",
-    "difficulty": "Hard",
+    "difficulty": "Special",
     "tags": [
       "Racing",
       "Card Game",
@@ -439,7 +439,7 @@
     "players": "5–15 players",
     "duration": "60–120 min",
     "ageRange": "14+",
-    "difficulty": "Special Event",
+    "difficulty": "Special",
     "tags": [
       "Social Deduction",
       "Bluffing",

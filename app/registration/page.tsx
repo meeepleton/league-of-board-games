@@ -444,10 +444,9 @@ export default function RegistrationPage() {
             Registration Information
           </h2>
           <p className="text-sm text-ink/70">
-            Sign up solo or as a team of up to 4 players, ages 14+. Choose a
+            Sign up solo player, ages 14+. Choose a
             pass type below, select your games, and fill in your details to
-            confirm your spot. All game equipment, tables, and event materials
-            are provided on-site.
+            confirm your spot. 
           </p>
         </div>
       </motion.section>
