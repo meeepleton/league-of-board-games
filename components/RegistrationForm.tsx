@@ -570,12 +570,16 @@ export default function RegistrationForm() {
                             </span>
                           </div>
                           <div className="flex flex-wrap gap-2 mt-2">
-                            <span className="text-[11px] border border-ink/15 text-ink/60 px-2 py-0.5 rounded-full">
-                              {g.requiredPlayers} players
-                            </span>
-                            <span className="text-[11px] border border-ink/15 text-ink/60 px-2 py-0.5 rounded-full">
-                              {g.estimatedRuntimeMinutes} min
-                            </span>
+                            {g.requiredPlayers && (
+                              <span className="text-[11px] border border-ink/15 text-ink/60 px-2 py-0.5 rounded-full">
+                                {g.requiredPlayers} players
+                              </span>
+                            )}
+                            {g.estimatedRuntimeMinutes && (
+                              <span className="text-[11px] border border-ink/15 text-ink/60 px-2 py-0.5 rounded-full">
+                                {g.estimatedRuntimeMinutes} min
+                              </span>
+                            )}
                             {g.difficulty && (
                               <span
                                 className={`text-[11px] font-medium border px-2 py-0.5 rounded-full ${getDifficultyStyles(
