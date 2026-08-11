@@ -23,7 +23,7 @@
 //       </motion.div>
 
 //       <div>
-//         <h2 className="font-heading text-4xl font-semibold mb-4">What is Meeple Masters?</h2>
+//         <h2 className="font-heading text-4xl font-semibold mb-4">What is League of Board Games?</h2>
 //         <p className="text-ink/70 mb-8">
 //           A national-level board gaming league bringing together strategy games, social
 //           deduction, euro games and party games under one roof — part competition,
@@ -102,7 +102,7 @@
 //           transition={{ duration: 0.5 }}
 //           className="font-heading text-4xl font-semibold mb-4"
 //         >
-//           What is Meeple Masters?
+//           What is League of Board Games?
 //         </motion.h2>
 //         <motion.p
 //           initial={{ opacity: 0, y: 16 }}
