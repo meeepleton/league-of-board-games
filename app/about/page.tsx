@@ -27,7 +27,7 @@
 //       <div className="text-center mb-16">
 //         <h1 className="font-heading text-4xl md:text-5xl font-semibold mb-3">About Us</h1>
 //         <p className="text-ink/60 max-w-2xl mx-auto">
-//           Meeple Masters started as a living-room game night and grew into the country&apos;s
+//           League of Board Games started as a living-room game night and grew into the country&apos;s
 //           largest tabletop gaming festival.
 //         </p>
 //       </div>
@@ -112,7 +112,7 @@
 //       >
 //         <h1 className="font-heading text-4xl md:text-5xl font-semibold mb-3">About Us</h1>
 //         <p className="text-ink/60 max-w-2xl mx-auto">
-//           Meeple Masters started as a living-room game night and grew into the country&apos;s
+//           League of Board Games started as a living-room game night and grew into the country&apos;s
 //           largest tabletop gaming festival.
 //         </p>
 //       </motion.div>
@@ -229,7 +229,7 @@
 //       >
 //         <h1 className="font-heading text-4xl md:text-5xl font-semibold mb-3">About Us</h1>
 //         <p className="text-ink/60 max-w-2xl mx-auto">
-//           Meeple Masters started as a living-room game night and grew into the country&apos;s
+//           League of Board Games started as a living-room game night and grew into the country&apos;s
 //           largest tabletop gaming festival.
 //         </p>
 //       </motion.div>
@@ -368,7 +368,7 @@ export default function AboutPage() {
       >
         <h1 className="font-heading text-4xl md:text-5xl font-semibold mb-3">About Us</h1>
         <p className="text-ink/60 max-w-2xl mx-auto">
-          Meeple Masters started as a living-room game night and grew into the country&apos;s
+          League of Board Games started as a living-room game night and grew into the bhopal&apos;s
           largest tabletop gaming festival.
         </p>
       </motion.div>

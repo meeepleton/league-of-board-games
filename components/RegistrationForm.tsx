@@ -269,7 +269,7 @@ export default function RegistrationForm() {
         order_id: result.razorpayOrderId,
         amount: result.amount,
         currency: result.currency,
-        name: "Meeple Masters 2026",
+        name: "League of Board Games 2026",
         description: selectedPass.name,
         prefill: {
           name: fullName.trim(),
