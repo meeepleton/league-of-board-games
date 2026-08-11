@@ -17,9 +17,9 @@ const body = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Meeple Masters National League | Board Game Championship",
+  title: "League of Board Games",
   description:
-    "India's national-level board gaming league — strategy, social deduction, euro & party games. Register now for the championship.",
+    "Bhopals first board gaming league — strategy, social deduction, euro & party games. Register now for the championship.",
 };
 
 export default function RootLayout({
