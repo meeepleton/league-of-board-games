@@ -614,7 +614,7 @@ export default function GameDetailPage({ params }: { params: { id: string } }) {
           <span className="text-xs font-semibold uppercase tracking-wide text-ink/40">
             {game.category}
           </span>
-          <span className={`text-xs font-semibold px-2.5 py-0.5 rounded-full flex items-center gap-1 ${difficultyTint[game.difficulty]}`}>
+          <span className={`text-xs font-semibold px-2.5 py-0.5 rounded-full flex items-center gap-1 ${difficultyTint[Array.isArray(game.difficulty) ? game.difficulty[0] : game.difficulty] || ""}`}>
             <Gauge size={11} />
             {game.difficulty}
           </span>
