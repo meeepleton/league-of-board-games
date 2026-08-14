@@ -1,11 +1,23 @@
 {
-  "title": [
-    { "name": "league of board games", "logo": "/illustrations/sponsor-1.svg" },
-    { "name": "meepleton cafe", "logo": "/illustrations/sponsor-2.svg" }
+  "top": [
+    { "name": "Rovera Finance", "logo": "/sponsors/rovera-finance.png", "category": "Title Sponsor" },
+    { "name": "Everich", "logo": "/sponsors/everich.jpeg", "category": "Presentation Partner" },
+    { "name": "Poppin' Deli", "logo": "/sponsors/poppin-deli.png", "category": "Venue Partner" },
+    { "name": "Meepleton", "logo": "/sponsors/meepleton.png", "category": "Venue Partner" }
   ],
-  "partners": [
-    { "name": "Rovera Finance", "logo": "/illustrations/sponsor-3.svg" },
-    { "name": "Everich", "logo": "/illustrations/sponsor-4.svg" },
-    { "name": "Tie Up Event Planners", "logo": "/illustrations/sponsor-5.svg" }
+
+  "marquee": [
+    { "name": "Tie Up Event Planners", "logo": "/sponsors/tie-up-event-planners.jpeg" },
+    { "name": "Roy Fitness", "logo": "/sponsors/roy-fitness.png" },
+    { "name": "Gamebae", "logo": "/sponsors/gamebae.png" },
+    { "name": "Meepleton", "logo": "/sponsors/meepleton.png" },
+    { "name": "Rovera Finance", "logo": "/sponsors/rovera-finance.png" },
+    { "name": "Everich", "logo": "/sponsors/everich.jpeg" },
+    { "name": "Poppin' Deli", "logo": "/sponsors/poppin-deli.png" },
+    { "name": "Baethak Club", "logo": "/sponsors/baethak-club.png" },
+    { "name": "Aagam Studios", "logo": "/sponsors/aagam-studios.jpeg" },
+    { "name": "Innercircle", "logo": "/sponsors/innercircle.png" },
+    { "name": "Girls on Grass", "logo": "/sponsors/girls-on-grass.jpeg" },
+    { "name": "Meepleton Community", "logo": "/sponsors/meepleton.png" }
   ]
 }

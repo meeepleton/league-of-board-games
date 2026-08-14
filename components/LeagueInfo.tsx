@@ -264,12 +264,12 @@ export default function LeagueInfo() {
     {
       icon: Users,
       title: "Who can join",
-      text: "Open to ages 12+ — students, young professionals, freelancers, families, hobby gamers and strategy enthusiasts. Beginners are just as welcome as seasoned players.",
+      text: "Open to ages 14+ — students, young professionals, freelancers, families, hobby gamers and strategy enthusiasts. Beginners are just as welcome as seasoned players.",
     },
     {
       icon: Calendar,
       title: "Event format",
-      text: "17 individual tournaments running from 29 August to 27 September (tentative), hosted across 2–3 venues in Bhopal for a true city-wide festival feel.",
+      text: "17 individual tournaments running from 29 August to 27 September , hosted across 2–3 venues in Bhopal for a true city-wide festival feel.",
     },
     {
       icon: Trophy,

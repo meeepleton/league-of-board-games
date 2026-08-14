@@ -27,6 +27,7 @@
 
 import Hero from "@/components/Hero";
 import StatsCounter from "@/components/StatsCounter";
+// import RegistrationCounter from "@/components/RegistrationCounter";
 import Highlights from "@/components/Highlights";
 import Venue from "@/components/Venue";
 import Sponsors from "@/components/Sponsors";
@@ -37,6 +38,7 @@ export default function HomePage() {
     <>
       <Hero />
       <StatsCounter />
+      {/* <RegistrationCounter /> */}
       <Highlights />
       <Venue />
       <Sponsors />
