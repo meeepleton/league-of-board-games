@@ -405,15 +405,125 @@
 //   );
 // }
 
+
+
+// previous registartion CODE PROPERLY WORKING - without Game PASS INFORMATION
+// "use client";
+
+// import { motion } from "framer-motion";
+// import { CalendarDays, Ticket, Info, Trophy, Ghost, Compass, MapPinned, ArrowRight } from "lucide-react";
+// import RegistrationForm from "@/components/RegistrationForm";
+
+// export default function RegistrationPage() {
+//   return (
+//     <div className="max-w-5xl mx-auto px-6 md:px-10 pt-32 pb-20">
+//       <motion.div
+//         initial={{ opacity: 0, y: 16 }}
+//         animate={{ opacity: 1, y: 0 }}
+//         transition={{ duration: 0.5 }}
+//         className="text-center mb-16"
+//       >
+//         <h1 className="font-heading text-4xl md:text-5xl font-semibold mb-3">
+//           Registration
+//         </h1>
+//         <p className="text-ink/60">
+//           Registrations open 5 Aug 2026 and close 28 Aug 2026.
+//         </p>
+//       </motion.div>
+
+//       {/* Registration information */}
+//       <motion.section
+//         initial={{ opacity: 0, y: 20 }}
+//         whileInView={{ opacity: 1, y: 0 }}
+//         viewport={{ once: true }}
+//         transition={{ duration: 0.5 }}
+//         className="bg-sky-light/25 rounded-xl3 p-8 mb-16 flex gap-4 items-start"
+//       >
+//         <div className="w-10 h-10 shrink-0 rounded-xl bg-sky-dark/15 flex items-center justify-center">
+//           <Info className="text-sky-dark" size={20} />
+//         </div>
+//         <div>
+//           <h2 className="font-heading text-2xl font-semibold mb-2">
+//             Registration Information
+//           </h2>
+//           <p className="text-sm text-ink/70">
+//             Sign up as a solo player, ages 14+. Choose your
+//             pass, select games you'd like to play, and enter your details to
+//             secure your spot. 
+//           </p>
+//         </div>
+//       </motion.section>
+
+//       {/* Dates */}
+//       <section className="grid sm:grid-cols-2 gap-4 mb-16">
+//         <motion.div
+//           initial={{ opacity: 0, x: -20 }}
+//           whileInView={{ opacity: 1, x: 0 }}
+//           viewport={{ once: true }}
+//           transition={{ type: "spring", stiffness: 150, damping: 16 }}
+//           whileHover={{ y: -4 }}
+//           className="bg-white rounded-xl2 p-6 shadow-softer flex gap-4 items-start"
+//         >
+//           <div className="w-10 h-10 shrink-0 rounded-xl bg-forest-light/25 flex items-center justify-center">
+//             <CalendarDays className="text-forest-dark" size={18} />
+//           </div>
+//           <div>
+//             <h3 className="font-semibold mb-1">Registration Window</h3>
+//             <p className="text-sm text-ink/60">5 Aug – 10 Sept 2026</p>
+//           </div>
+//         </motion.div>
+
+//         <motion.div
+//           initial={{ opacity: 0, x: 20 }}
+//           whileInView={{ opacity: 1, x: 0 }}
+//           viewport={{ once: true }}
+//           transition={{
+//             type: "spring",
+//             stiffness: 150,
+//             damping: 16,
+//             delay: 0.08,
+//           }}
+//           whileHover={{ y: -4 }}
+//           className="bg-white rounded-xl2 p-6 shadow-softer flex gap-4 items-start"
+//         >
+//           <div className="w-10 h-10 shrink-0 rounded-xl bg-cherry-light/25 flex items-center justify-center">
+//             <Ticket className="text-cherry-dark" size={18} />
+//           </div>
+//           <div>
+//             <h3 className="font-semibold mb-1">Event Dates</h3>
+//             <p className="text-sm text-ink/60">29 Aug - 27 Sept 2026</p>
+//           </div>
+//         </motion.div>
+//       </section>
+
+//       {/* Interactive pass + game selection + player details form */}
+//       <RegistrationForm />
+//     </div>
+//   );
+// }
+
+
+
+
 "use client";
 
 import { motion } from "framer-motion";
-import { CalendarDays, Ticket, Info } from "lucide-react";
+import {
+  CalendarDays,
+  Ticket,
+  Info,
+  Trophy,
+  Ghost,
+  Compass,
+  MapPinned,
+  ArrowRight,
+} from "lucide-react";
 import RegistrationForm from "@/components/RegistrationForm";
 
 export default function RegistrationPage() {
   return (
     <div className="max-w-5xl mx-auto px-6 md:px-10 pt-32 pb-20">
+      {/* Page Header */}
       <motion.div
         initial={{ opacity: 0, y: 16 }}
         animate={{ opacity: 1, y: 0 }}
@@ -423,12 +533,13 @@ export default function RegistrationPage() {
         <h1 className="font-heading text-4xl md:text-5xl font-semibold mb-3">
           Registration
         </h1>
+
         <p className="text-ink/60">
-          Registrations open 5 Aug 2026 and close 28 Aug 2026.
+          Registrations open 5 Aug 2026 and close 10 Sept 2026.
         </p>
       </motion.div>
 
-      {/* Registration information */}
+      {/* Registration Information */}
       <motion.section
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -439,36 +550,50 @@ export default function RegistrationPage() {
         <div className="w-10 h-10 shrink-0 rounded-xl bg-sky-dark/15 flex items-center justify-center">
           <Info className="text-sky-dark" size={20} />
         </div>
+
         <div>
           <h2 className="font-heading text-2xl font-semibold mb-2">
             Registration Information
           </h2>
+
           <p className="text-sm text-ink/70">
-            Sign up solo player, ages 14+. Choose a
-            pass type below, select your games, and fill in your details to
-            confirm your spot. 
+            Sign up as a solo player, ages 14+. Choose your pass, select games
+            you'd like to play, and enter your details to secure your spot.
           </p>
         </div>
       </motion.section>
 
       {/* Dates */}
       <section className="grid sm:grid-cols-2 gap-4 mb-16">
+        {/* Registration Window */}
         <motion.div
           initial={{ opacity: 0, x: -20 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
-          transition={{ type: "spring", stiffness: 150, damping: 16 }}
+          transition={{
+            type: "spring",
+            stiffness: 150,
+            damping: 16,
+          }}
           whileHover={{ y: -4 }}
           className="bg-white rounded-xl2 p-6 shadow-softer flex gap-4 items-start"
         >
           <div className="w-10 h-10 shrink-0 rounded-xl bg-forest-light/25 flex items-center justify-center">
             <CalendarDays className="text-forest-dark" size={18} />
           </div>
+
           <div>
-            <h3 className="font-semibold mb-1">Registration Window</h3>
-            <p className="text-sm text-ink/60">5 Aug – 28 Aug 2026</p>
+            <h3 className="font-semibold mb-1">
+              Registration Window
+            </h3>
+
+            <p className="text-sm text-ink/60">
+              5 Aug – 10 Sept 2026
+            </p>
           </div>
         </motion.div>
+
+        {/* Event Dates */}
         <motion.div
           initial={{ opacity: 0, x: 20 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -485,10 +610,138 @@ export default function RegistrationPage() {
           <div className="w-10 h-10 shrink-0 rounded-xl bg-cherry-light/25 flex items-center justify-center">
             <Ticket className="text-cherry-dark" size={18} />
           </div>
+
           <div>
-            <h3 className="font-semibold mb-1">Event Dates</h3>
-            <p className="text-sm text-ink/60">29 Aug - 27 Sept 2026</p>
+            <h3 className="font-semibold mb-1">
+              Event Dates
+            </h3>
+
+            <p className="text-sm text-ink/60">
+              29 Aug – 27 Sept 2026
+            </p>
           </div>
+        </motion.div>
+      </section>
+
+      {/* Game Passes */}
+      <section className="mb-16">
+        {/* Game Pass Heading */}
+        <motion.div
+          initial={{ opacity: 0, y: 16 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className="text-center mb-10"
+        >
+          <h2 className="font-heading text-3xl md:text-4xl font-semibold mb-3">
+            Game Passes
+          </h2>
+
+          <p className="text-ink/60 max-w-xl mx-auto">
+            Pick the pass that matches how you want to play.
+          </p>
+        </motion.div>
+
+        {/* Game Pass Cards */}
+        <div className="grid sm:grid-cols-2 gap-5">
+          {[
+            {
+              icon: Trophy,
+              title: "League Pass",
+              desc: "Full access to the league stage — select exactly 6 games to compete, including at least 1 Heavy game. Light games are excluded from the League Pass.",
+              tint: "bg-gold-light/40",
+              iconColor: "text-ink",
+            },
+            {
+              icon: Ghost,
+              title: "BOTC Pass",
+              desc: "Full access to a single narrator-led Blood on the Clocktower session.",
+              tint: "bg-cherry-light/25",
+              iconColor: "text-cherry-dark",
+            },
+            {
+              icon: Compass,
+              title: "Explorer Pass",
+              desc: "Choose any 1 game from our full lineup — perfect for a single-game deep dive.",
+              tint: "bg-sky-light/35",
+              iconColor: "text-sky-dark",
+            },
+            {
+              icon: MapPinned,
+              title: "Patiyebaaz Hunt",
+              desc: "Sign up as a team of up to 4 players and race to uncover clues, solve puzzles, and win the treasure hunt!",
+              tint: "bg-forest-light/25",
+              iconColor: "text-forest-dark",
+            },
+          ].map((pass, i) => (
+            <motion.div
+              key={pass.title}
+              initial={{
+                opacity: 0,
+                y: 20,
+                scale: 0.96,
+              }}
+              whileInView={{
+                opacity: 1,
+                y: 0,
+                scale: 1,
+              }}
+              viewport={{
+                once: true,
+                margin: "-40px",
+              }}
+              transition={{
+                type: "spring",
+                stiffness: 150,
+                damping: 16,
+                delay: i * 0.08,
+              }}
+              whileHover={{ y: -5 }}
+              className="bg-white rounded-xl2 p-5 sm:p-6 shadow-softer flex gap-3 sm:gap-4 items-start"
+            >
+              <div
+                className={`w-11 h-11 shrink-0 rounded-xl flex items-center justify-center ${pass.tint}`}
+              >
+                <pass.icon
+                  className={pass.iconColor}
+                  size={20}
+                />
+              </div>
+
+              <div>
+                <h3 className="font-heading font-semibold text-lg mb-1.5">
+                  {pass.title}
+                </h3>
+
+                <p className="text-sm text-ink/60">
+                  {pass.desc}
+                </p>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+
+        {/* Secure Pass Message */}
+        <motion.div
+          initial={{
+            opacity: 0,
+            y: 12,
+          }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+          }}
+          viewport={{
+            once: true,
+          }}
+          transition={{
+            duration: 0.4,
+            delay: 0.2,
+          }}
+          className="flex items-center justify-center gap-2 text-ink/50 text-sm font-medium mt-8"
+        >
+          Secure your Game Pass
+          <ArrowRight size={16} />
         </motion.div>
       </section>
 

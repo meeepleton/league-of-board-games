@@ -98,17 +98,18 @@
 
 
 
-
+//  THIS IS code for KEY DETAILS -----------------------------
 "use client";
 
 import { motion } from "framer-motion";
 
 const STAGES = [
   { title: "Registration Opens", color: "bg-sky", desc: "Registrations open in August — choose your pass and lock in your spot." },
-  { title: "17 Tournaments", color: "bg-forest", desc: "The League runs 29 August – 27 September (tentative) across 2–3 venues in Bhopal." },
-  { title: "4 Matches Each", color: "bg-gold", desc: "Every participant plays 4 matches per tournament, earning Victory Points by finishing position." },
-  { title: "League Standings", color: "bg-tangerine", desc: "League Pass holders compete across any 6 tournaments — VP adds up across all six." },
-  { title: "League Champion 2026", color: "bg-cherry", desc: "The highest cumulative VP scorer is crowned League Champion 2026." },
+  { title: "17 Tournaments", color: "bg-forest", desc: "The League runs 29 August – 27 September across 2–3 venues in Bhopal." },
+  { title: "League Pass Holders", color: "bg-cherry", desc: "Every participant plays 18 matches in total, with 3 matches per game, including at least 1 Heavy game. \n \n League Points are awarded based on each player's finishing position in every match." },
+  { title: "Explorer Pass Holders", color: "bg-gold", desc: "Every participant plays 4 matches per tournament. \n \n Points are awarded based on each player's finishing position in every match." },
+  { title: "League Standings", color: "bg-tangerine", desc: "League Pass holders compete across any 6 tournaments — LP adds up across all six." },
+  { title: "League Champion 2026", color: "bg-cherry", desc: "The highest cumulative LP scorer is crowned the Champion of League of Board Games 2026." },
 ];
 
 export default function EventTimeline() {
@@ -125,17 +126,19 @@ export default function EventTimeline() {
       </motion.h2>
 
       <div className="relative">
-        {/* Connecting line behind the stage numbers, desktop only */}
-        <div className="hidden md:block absolute top-[38px] left-[10%] right-[10%] h-0.5 bg-ink/10" aria-hidden />
-
-        <div className="grid md:grid-cols-5 gap-6">
+        <div className="grid grid-cols-1 gap-6 max-w-4xl mx-auto">
           {STAGES.map((s, i) => (
             <motion.div
               key={s.title}
               initial={{ opacity: 0, y: 24, scale: 0.92 }}
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: true, margin: "-40px" }}
-              transition={{ type: "spring", stiffness: 140, damping: 16, delay: i * 0.1 }}
+              transition={{
+                type: "spring",
+                stiffness: 140,
+                damping: 16,
+                delay: i * 0.1,
+              }}
               whileHover={{ y: -6 }}
               className="relative bg-white rounded-xl2 p-6 shadow-softer"
             >
@@ -145,8 +148,14 @@ export default function EventTimeline() {
               >
                 {i + 1}
               </motion.div>
-              <h3 className="font-semibold mb-2">{s.title}</h3>
-              <p className="text-sm text-ink/60">{s.desc}</p>
+
+              <h3 className="font-semibold mb-2">
+                {s.title}
+              </h3>
+
+              <p className="text-sm text-ink/60 whitespace-pre-line">
+                {s.desc}
+              </p>
             </motion.div>
           ))}
         </div>

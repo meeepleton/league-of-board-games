@@ -4,11 +4,11 @@ import { motion } from "framer-motion";
 
 const HIGHLIGHTS = [
   { emoji: "💰", title: "Prize Pool", desc: "₹1,00,000+ in cash prizes and merchandise across every category.", color: "bg-gold/15", bar: "bg-gold" },
-  { emoji: "🎓", title: "Learning Sessions", desc: "Involved gameplay with seasoned players and board game veterans.", color: "bg-sky/10", bar: "bg-sky" },
+  { emoji: "🎓", title: "Exhibition Matches", desc: "Involved gameplay with seasoned players and board game veterans.", color: "bg-sky/10", bar: "bg-sky" },
   { emoji: "🤝", title: "Community", desc: "Meet hundreds of players who share your love for the table.", color: "bg-forest/10", bar: "bg-forest" },
   { emoji: "🎉", title: "Treasure Hunt", desc: "City-wide hunt for the gold, open to all.", color: "bg-cherry/10", bar: "bg-cherry" },
-  { emoji: "🛠️", title: "Workshops", desc: "Hands-on sessions on game design, prototyping and strategy.", color: "bg-tangerine/10", bar: "bg-tangerine" },
-  { emoji: "🌙", title: "Social Evenings", desc: "Unwind after matches with themed evening game nights.", color: "bg-gold/15", bar: "bg-gold" },
+  { emoji: "🛠️", title: "Beginner Friendly", desc: "No experience needed—just bring your passion for play!", color: "bg-tangerine/10", bar: "bg-tangerine" },
+  { emoji: "🌙", title: "Social Evenings", desc: "Join us any evening that suits you, on spot registrations will be open subject to availability.", color: "bg-gold/15", bar: "bg-gold" },
 ];
 
 export default function Highlights() {
