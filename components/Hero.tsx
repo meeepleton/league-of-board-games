@@ -355,7 +355,7 @@ export default function Hero() {
         </motion.p>
 
         <motion.p variants={item} className="text-sm text-ink/50 max-w-xl mx-auto mb-10">
-          New to board game before? Perfect. Think you've mastered them ? We'll see....        
+          New to board game ? Perfect. Think you've mastered them ? We'll see....        
           <br />
           Come play, learn, strategise, compete, and find your people.
         </motion.p>
