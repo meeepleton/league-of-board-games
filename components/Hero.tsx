@@ -190,6 +190,7 @@ import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { Kanit } from "next/font/google";
+import RegistrationCounter from "@/components/RegistrationCounter";
 
 const kanit = Kanit({
   subsets: ["latin"],
@@ -242,9 +243,11 @@ export default function Hero() {
   const yMid = useTransform(scrollYProgress, [0, 1], [0, 160]);
   const yFast = useTransform(scrollYProgress, [0, 1], [0, 240]);
 
+
   return (
     <section ref={sectionRef} className="relative pt-40 pb-28 px-6 md:px-10 overflow-hidden">
       {/* Layered color shapes — parallax on scroll, gentle float on their own */}
+      <RegistrationCounter />
       <motion.div
         style={{ y: yFast }}
         animate={{ y: [0, -16, 0] }}
