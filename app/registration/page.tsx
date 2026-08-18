@@ -519,25 +519,13 @@ import {
   ArrowRight,
 } from "lucide-react";
 import RegistrationForm from "@/components/RegistrationForm";
+import PageHeader from "@/components/PageHeader";
 
 export default function RegistrationPage() {
   return (
     <div className="max-w-5xl mx-auto px-6 md:px-10 pt-32 pb-20">
       {/* Page Header */}
-      <motion.div
-        initial={{ opacity: 0, y: 16 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-        className="text-center mb-16"
-      >
-        <h1 className="font-heading text-4xl md:text-5xl font-semibold mb-3">
-          Registration
-        </h1>
-
-        <p className="text-ink/60">
-          Registrations open 5 Aug 2026 and close 10 Sept 2026.
-        </p>
-      </motion.div>
+      <PageHeader title="Registration" subtitle="Registrations open 5 Aug 2026 and close 28 Aug 2026." />
 
       {/* Registration Information */}
       <motion.section
