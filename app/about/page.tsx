@@ -27,7 +27,7 @@
 //       <div className="text-center mb-16">
 //         <h1 className="font-heading text-4xl md:text-5xl font-semibold mb-3">About Us</h1>
 //         <p className="text-ink/60 max-w-2xl mx-auto">
-//           Meeple Masters started as a living-room game night and grew into the country&apos;s
+//           League of Board Games started as a living-room game night and grew into the country&apos;s
 //           largest tabletop gaming festival.
 //         </p>
 //       </div>
@@ -112,7 +112,7 @@
 //       >
 //         <h1 className="font-heading text-4xl md:text-5xl font-semibold mb-3">About Us</h1>
 //         <p className="text-ink/60 max-w-2xl mx-auto">
-//           Meeple Masters started as a living-room game night and grew into the country&apos;s
+//           League of Board Games started as a living-room game night and grew into the country&apos;s
 //           largest tabletop gaming festival.
 //         </p>
 //       </motion.div>
@@ -229,7 +229,7 @@
 //       >
 //         <h1 className="font-heading text-4xl md:text-5xl font-semibold mb-3">About Us</h1>
 //         <p className="text-ink/60 max-w-2xl mx-auto">
-//           Meeple Masters started as a living-room game night and grew into the country&apos;s
+//           League of Board Games started as a living-room game night and grew into the country&apos;s
 //           largest tabletop gaming festival.
 //         </p>
 //       </motion.div>
@@ -305,6 +305,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import team from "@/data/team.json";
+import PageHeader from "@/components/PageHeader";
 
 
 function TeamGroup({
@@ -360,18 +361,10 @@ const galleryImages = [
 export default function AboutPage() {
   return (
     <div className="max-w-6xl mx-auto px-6 md:px-10 pt-32 pb-20">
-      <motion.div
-        initial={{ opacity: 0, y: 16 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-        className="text-center mb-16"
-      >
-        <h1 className="font-heading text-4xl md:text-5xl font-semibold mb-3">About Us</h1>
-        <p className="text-ink/60 max-w-2xl mx-auto">
-          Meeple Masters started as a living-room game night and grew into the country&apos;s
-          largest tabletop gaming festival.
-        </p>
-      </motion.div>
+      <PageHeader
+        title="About Us"
+        subtitle="League of Board Games started as a living-room game night and grew into the bhopal's largest tabletop gaming festival."
+      />
 
       <div className="grid md:grid-cols-2 gap-8 mb-20">
         <motion.div

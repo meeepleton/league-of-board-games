@@ -146,6 +146,7 @@ import scheduleData from "@/data/schedule.json";
 import ComingSoon from "@/components/ComingSoon";
 import { SCHEDULE_LIVE } from "@/lib/eventConfig";
 import { CalendarClock } from "lucide-react";
+import PageHeader from "@/components/PageHeader";
 
 const periodColor: Record<string, string> = {
   Morning: "bg-gold-light/40 text-ink",
@@ -158,15 +159,7 @@ const DAY_COLORS = ["bg-forest", "bg-cherry", "bg-tangerine"];
 export default function SchedulePage() {
   return (
     <div className="max-w-4xl mx-auto px-6 md:px-10 pt-32 pb-20">
-      <motion.div
-        initial={{ opacity: 0, y: 16 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-        className="text-center mb-16"
-      >
-        <h1 className="font-heading text-4xl md:text-5xl font-semibold mb-3">Schedule</h1>
-        <p className="text-ink/60">Thirty days, packed with matches, workshops, and celebrations.</p>
-      </motion.div>
+      <PageHeader title="Schedule" subtitle="Thirty days, packed with matches, workshops, and celebrations." />
 
       {!SCHEDULE_LIVE ? (
        <ComingSoon

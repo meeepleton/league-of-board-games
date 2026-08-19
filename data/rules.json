@@ -8,7 +8,7 @@
       },
       {
         "q": "What should I bring?",
-        "a": "Please carry a valid photo ID and your registration confirmation (digital or printed). All board games, components, and score sheets will be provided by the organisers."
+        "a": "Please carry a valid photo ID and your registration confirmation (digital or printed)."
       },
       {
         "q": "When should I arrive?",
@@ -28,12 +28,22 @@
     "section": "Tournament Format",
     "items": [
       {
+        "q":"Individual tournaments" ,
+        "a":"Players can choose from 16 different boardgames divided in 3 categories: light, medium and heavy. Players will play a total of 4 matches of the individual game they are taking part in."
+      },
+      {
+        "q":"League" ,
+        "a":"Players will choose 6 games out of a total of 8 medium and 4 heavy games (1 heavy game is mandatory for the participants).They will play 6 tournaments and will have 3 matches in each of those tournaments. "
+      },
+
+      
+      {
         "q": "How are matches scheduled?",
-        "a": "Players will receive their match schedule before the tournament begins. Please check the schedule board regularly for updates."
+        "a": "Players will be given the schedule before the tournament begins. The fixtures will be based on availability and the participants will play multiple matches in a single day. Matches will start in the evening on weekdays and in the afternoon on sundays. "
       },
       {
         "q": "How are winners decided?",
-        "a": "Each game follows its official victory conditions. Rankings are determined by the tournament format announced before the event."
+        "a": "Each game follows its official victory condition. Rankings will decide the points that will be given in a particular match and will go towards your championship leaderboard"
       },
       {
         "q": "What happens in case of a tie?",

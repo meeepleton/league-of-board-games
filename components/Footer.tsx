@@ -6,7 +6,7 @@
 //     <footer className="bg-ink text-cream mt-24">
 //       <div className="max-w-7xl mx-auto px-6 md:px-10 py-16 grid grid-cols-1 md:grid-cols-4 gap-12">
 //         <div>
-//           <h3 className="font-heading text-2xl mb-3">Meeple Masters</h3>
+//           <h3 className="font-heading text-2xl mb-3">League of Board Games</h3>
 //           <p className="text-cream/70 text-sm leading-relaxed">
 //             India&apos;s national-level board gaming league and championship — three days of
 //             strategy, deduction, and dice.
@@ -54,7 +54,7 @@
 //         </div>
 //       </div>
 //       <div className="border-t border-cream/10 text-center text-xs text-cream/50 py-6">
-//         © 2026 Meeple Masters National League. All rights reserved.
+//         © 2026 League of Board Games National League. All rights reserved.
 //       </div>
 //     </footer>
 //   );
