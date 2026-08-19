@@ -506,21 +506,23 @@ export default function RegistrationForm() {
             {/* Game selection */}
             {selectedPass && (
               <>
-                <div className="flex items-center justify-between mb-4">
-                  <h3 className="font-heading text-lg font-semibold">
-                    Select Your Games
-                  </h3>
-                  <span
-                    className={`text-xs font-semibold px-3 py-1 rounded-full ${
-                      gamesValid
-                        ? "bg-forest-light/25 text-forest-dark"
-                        : "bg-ink/5 text-ink/50"
-                    }`}
-                  >
-                    {selectedGames.length} /{" "}
-                    {selectedPass.requiredSelectionCount} Selected
-                  </span>
-                </div>
+                {selectedPass.games.length > 0 && (
+                  <div className="flex items-center justify-between mb-4">
+                    <h3 className="font-heading text-lg font-semibold">
+                      Select Your Games
+                    </h3>
+                    <span
+                      className={`text-xs font-semibold px-3 py-1 rounded-full ${
+                        gamesValid
+                          ? "bg-forest-light/25 text-forest-dark"
+                          : "bg-ink/5 text-ink/50"
+                      }`}
+                    >
+                      {selectedGames.length} /{" "}
+                      {selectedPass.requiredSelectionCount} Selected
+                    </span>
+                  </div>
+                )}
 
                 <div className="grid sm:grid-cols-2 gap-4 mb-8">
                   {selectedPass.games.map((g) => {
@@ -568,12 +570,16 @@ export default function RegistrationForm() {
                             </span>
                           </div>
                           <div className="flex flex-wrap gap-2 mt-2">
-                            <span className="text-[11px] border border-ink/15 text-ink/60 px-2 py-0.5 rounded-full">
-                              {g.requiredPlayers} players
-                            </span>
-                            <span className="text-[11px] border border-ink/15 text-ink/60 px-2 py-0.5 rounded-full">
-                              {g.estimatedRuntimeMinutes} min
-                            </span>
+                            {g.requiredPlayers && (
+                              <span className="text-[11px] border border-ink/15 text-ink/60 px-2 py-0.5 rounded-full">
+                                {g.requiredPlayers} players
+                              </span>
+                            )}
+                            {g.estimatedRuntimeMinutes && (
+                              <span className="text-[11px] border border-ink/15 text-ink/60 px-2 py-0.5 rounded-full">
+                                {g.estimatedRuntimeMinutes} min
+                              </span>
+                            )}
                             {g.difficulty && (
                               <span
                                 className={`text-[11px] font-medium border px-2 py-0.5 rounded-full ${getDifficultyStyles(
