@@ -130,16 +130,11 @@
 //   );
 // }
 
-
-
-
-
-
-
 "use client";
 
 import { useEffect, useRef, useState } from "react";
 import { motion, useInView } from "framer-motion";
+import { passService } from "@/api/client/services/pass.service";
 
 // ---------------------------------------------------------------------------
 // HARDCODED FOR NOW — replace this with the real, live registration count
@@ -152,9 +147,20 @@ const DIGIT_COUNT = 3; // always renders as 3 digits, e.g. 010, 100, 999
 const TILE_H = 26; // px — smaller + more rectangular tile
 const TILE_W = TILE_H * 0.62;
 
-function DigitTile({ digit, delay, play }: { digit: number; delay: number; play: boolean }) {
+function DigitTile({
+  digit,
+  delay,
+  play,
+}: {
+  digit: number;
+  delay: number;
+  play: boolean;
+}) {
   const loops = 3;
-  const sequence = Array.from({ length: loops * 10 + digit + 1 }, (_, i) => i % 10);
+  const sequence = Array.from(
+    { length: loops * 10 + digit + 1 },
+    (_, i) => i % 10,
+  );
   const finalIndex = sequence.length - 1;
 
   return (
@@ -167,7 +173,11 @@ function DigitTile({ digit, delay, play }: { digit: number; delay: number; play:
         initial={{ y: 0 }}
         animate={{ y: play ? -finalIndex * TILE_H : 0 }}
         // Slowed further, from 2.6s to 3.4s per tile
-        transition={play ? { duration: 3.4, delay, ease: [0.16, 0.8, 0.3, 1] } : { duration: 0 }}
+        transition={
+          play
+            ? { duration: 3.4, delay, ease: [0.16, 0.8, 0.3, 1] }
+            : { duration: 0 }
+        }
       >
         {sequence.map((d, i) => (
           <div
@@ -188,7 +198,15 @@ export default function RegistrationCounter() {
   // No "once", so it fires every time the element re-enters the viewport
   const isInView = useInView(ref, { margin: "-40px", amount: 0.6 });
   const [play, setPlay] = useState(false);
-
+  const [registrationCount, setRegistrationCount] =
+    useState<number>(REGISTRATION_COUNT);
+  useEffect(() => {
+    async function registrationCountGetter() {
+      const res = await passService.getRegistrationCount();
+      setRegistrationCount(res);
+    }
+    registrationCountGetter();
+  }, []);
   useEffect(() => {
     if (isInView) {
       // Reset to idle first, then flip to play on the next tick — this is
@@ -202,13 +220,17 @@ export default function RegistrationCounter() {
     }
   }, [isInView]);
 
-  const digits = REGISTRATION_COUNT.toString()
+  const digits = registrationCount
+    .toString()
     .padStart(DIGIT_COUNT, "0")
     .split("")
     .map(Number);
 
   return (
-    <div ref={ref} className="flex items-center justify-center flex-wrap gap-x-3 gap-y-2">
+    <div
+      ref={ref}
+      className="flex items-center justify-center flex-wrap gap-x-3 gap-y-2"
+    >
       {/* Plain text label, no box */}
       <span className="text-sm sm:text-base font-semibold tracking-wide text-ink whitespace-nowrap">
         League Registrations to Date
@@ -221,7 +243,8 @@ export default function RegistrationCounter() {
         transition={{ type: "spring", stiffness: 140, damping: 16 }}
         className="relative inline-flex items-center gap-1.5 pl-2 pr-2.5 py-1.5 rounded-full shadow-soft"
         style={{
-          background: "linear-gradient(155deg, #e8d9c0 0%, #d9c4a0 50%, #c9ad80 100%)",
+          background:
+            "linear-gradient(155deg, #e8d9c0 0%, #d9c4a0 50%, #c9ad80 100%)",
           border: "1px solid rgba(0,0,0,0.12)",
         }}
       >
@@ -236,7 +259,10 @@ export default function RegistrationCounter() {
         />
 
         {/* Live indicator — solid green dot */}
-        <span className="relative z-10 shrink-0 w-2.5 h-2.5 rounded-full bg-green-500" aria-hidden />
+        <span
+          className="relative z-10 shrink-0 w-2.5 h-2.5 rounded-full bg-green-500"
+          aria-hidden
+        />
 
         {/* Digit tiles */}
         <div className="relative z-10 flex items-center gap-1">

@@ -67,6 +67,9 @@ interface PurchasePassResponse {
   currency: string;
   keyId: string;
 }
+interface RegistrationCount{
+  count : number
+}
 // 2. Export the collective fetching function
 export const passService = {
   getAll: async (): Promise<ClientPass[]> => {
@@ -109,4 +112,20 @@ export const passService = {
     throw new Error(message);
   }
 },
+  getRegistrationCount:async()=>{
+    try {
+      const response = await api.get<ApiResponse<RegistrationCount>>(
+        API_ENDPOINTS.PURCHASE.GET_REGISTERATION_COUNT,
+      );
+  
+      if (!response.data.success || !response.data.data) {
+        throw new Error(response.data.error || 'Failed to get count');
+      }
+  
+      return response.data.data.count; 
+    } catch (err: any) {
+      
+      return 50;
+    }
+  }
 };

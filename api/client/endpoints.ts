@@ -4,7 +4,7 @@ export const API_ENDPOINTS = {
     GET_PASS_BY_ID: (id: string) => `/api/passes/${id}`,
   },
   PURCHASE:{
-    PURCHASE_A_PASS:"/api/purchases"
-
+    PURCHASE_A_PASS:"/api/purchases",
+    GET_REGISTERATION_COUNT : "/api/purchases/get-registeration-number"
   }
 } as const;
