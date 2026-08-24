@@ -401,7 +401,7 @@ export default function RegistrationForm() {
               >
                 {passes.map((p) => (
                   <option key={p.id} value={String(p.id)}>
-                    {`${p.name} (₹${p.pricing.hasActiveDiscount ? p.pricing.discountedPrice : p.pricing.basePrice})`}
+                    {`${p.name}`}
                   </option>
                 ))}
               </select>
@@ -433,7 +433,7 @@ export default function RegistrationForm() {
                     <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
                       <div>
                         <h3 className="font-heading text-xl font-semibold mb-1 text-ink">
-                          {`${selectedPass.name}(₹${selectedPass.pricing.hasActiveDiscount ? selectedPass.pricing.discountedPrice : selectedPass.pricing.basePrice})`}
+                          {`${selectedPass.name}`}
                         </h3>
                         <p className="text-sm text-ink/60 max-w-sm">
                           {selectedPass.description}
