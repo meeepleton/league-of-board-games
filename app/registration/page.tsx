@@ -405,8 +405,6 @@
 //   );
 // }
 
-
-
 // previous registartion CODE PROPERLY WORKING - without Game PASS INFORMATION
 // "use client";
 
@@ -449,7 +447,7 @@
 //           <p className="text-sm text-ink/70">
 //             Sign up as a solo player, ages 14+. Choose your
 //             pass, select games you'd like to play, and enter your details to
-//             secure your spot. 
+//             secure your spot.
 //           </p>
 //         </div>
 //       </motion.section>
@@ -502,9 +500,6 @@
 //   );
 // }
 
-
-
-
 "use client";
 
 import { motion } from "framer-motion";
@@ -525,7 +520,10 @@ export default function RegistrationPage() {
   return (
     <div className="max-w-5xl mx-auto px-6 md:px-10 pt-32 pb-20">
       {/* Page Header */}
-      <PageHeader title="Registration" subtitle="Registrations open 5 Aug 2026 and close 28 Aug 2026." />
+      <PageHeader
+        title="Registration"
+        subtitle="Registrations open 5 Aug 2026 and close 28 Aug 2026."
+      />
 
       {/* Registration Information */}
       <motion.section
@@ -571,13 +569,9 @@ export default function RegistrationPage() {
           </div>
 
           <div>
-            <h3 className="font-semibold mb-1">
-              Registration Window
-            </h3>
+            <h3 className="font-semibold mb-1">Registration Window</h3>
 
-            <p className="text-sm text-ink/60">
-              5 Aug – 10 Sept 2026
-            </p>
+            <p className="text-sm text-ink/60">5 Aug – 10 Sept 2026</p>
           </div>
         </motion.div>
 
@@ -600,13 +594,9 @@ export default function RegistrationPage() {
           </div>
 
           <div>
-            <h3 className="font-semibold mb-1">
-              Event Dates
-            </h3>
+            <h3 className="font-semibold mb-1">Event Dates</h3>
 
-            <p className="text-sm text-ink/60">
-              29 Aug – 27 Sept 2026
-            </p>
+            <p className="text-sm text-ink/60">29 Aug – 27 Sept 2026</p>
           </div>
         </motion.div>
       </section>
@@ -634,29 +624,43 @@ export default function RegistrationPage() {
         <div className="grid sm:grid-cols-2 gap-5">
           {[
             {
-              icon: Trophy,
-              title: "League Pass",
-              desc: "Full access to the league stage — select exactly 6 games to compete, including at least 1 Heavy game. Light games are excluded from the League Pass.",
-              tint: "bg-gold-light/40",
-              iconColor: "text-ink",
-            },
-            {
-              icon: Ghost,
-              title: "BOTC Pass",
-              desc: "Full access to a single narrator-led Blood on the Clocktower session.",
-              tint: "bg-cherry-light/25",
-              iconColor: "text-cherry-dark",
-            },
-            {
               icon: Compass,
-              title: "Explorer Pass",
+              title: "Explorer Pass (₹399)",
               desc: "Choose any 1 game from our full lineup — perfect for a single-game deep dive.",
               tint: "bg-sky-light/35",
               iconColor: "text-sky-dark",
             },
             {
               icon: MapPinned,
-              title: "Patiyebaaz Hunt",
+              title: "Treasure Hunt (Patiyebaaz Hunt) Solo Pass (₹599)",
+              desc: "Sign up alone and get assigned to a team on the spot then race to uncover clues, solve puzzles, and win the treasure hunt!",
+              tint: "bg-forest-light/25",
+              iconColor: "text-forest-dark",
+            },
+            {
+              icon: Ghost,
+              title: "BOTC Pass (₹899)",
+              desc: "Full access to a single narrator-led Blood on the Clocktower session.",
+              tint: "bg-cherry-light/25",
+              iconColor: "text-cherry-dark",
+            },
+            {
+              icon: Compass,
+              title: "Explorer Pass Value (₹899)",
+              desc: "Choose any 3 game from our full lineup ",
+              tint: "bg-sky-light/35",
+              iconColor: "text-sky-dark",
+            },
+            {
+              icon: Trophy,
+              title: "League Pass (₹1499)",
+              desc: "Full access to the league stage — select exactly 6 games to compete, including at least 1 Heavy game. Light games are excluded from the League Pass.",
+              tint: "bg-gold-light/40",
+              iconColor: "text-ink",
+            },
+            {
+              icon: MapPinned,
+              title: "Treasure Hunt (Patiyebaaz Hunt) Team Pass (₹1499)",
               desc: "Sign up as a team of up to 4 players and race to uncover clues, solve puzzles, and win the treasure hunt!",
               tint: "bg-forest-light/25",
               iconColor: "text-forest-dark",
@@ -690,10 +694,7 @@ export default function RegistrationPage() {
               <div
                 className={`w-11 h-11 shrink-0 rounded-xl flex items-center justify-center ${pass.tint}`}
               >
-                <pass.icon
-                  className={pass.iconColor}
-                  size={20}
-                />
+                <pass.icon className={pass.iconColor} size={20} />
               </div>
 
               <div>
@@ -701,9 +702,7 @@ export default function RegistrationPage() {
                   {pass.title}
                 </h3>
 
-                <p className="text-sm text-ink/60">
-                  {pass.desc}
-                </p>
+                <p className="text-sm text-ink/60">{pass.desc}</p>
               </div>
             </motion.div>
           ))}
