@@ -1,30 +1,83 @@
 [
   {
-    "day": "Day 1 — Fri, 12 Sep",
-    "blocks": [
-      { "time": "9:00 AM", "period": "Morning", "activity": "Registration & Check-in", "icon": "clipboard" },
-      { "time": "10:30 AM", "period": "Morning", "activity": "Opening Ceremony", "icon": "megaphone" },
-      { "time": "12:00 PM", "period": "Afternoon", "activity": "League Stage — Round 1 & 2", "icon": "dice" },
-      { "time": "4:00 PM", "period": "Afternoon", "activity": "Learning Session: Euro Games 101", "icon": "book" },
-      { "time": "7:00 PM", "period": "Evening", "activity": "Social Mixer & Casual Play", "icon": "users" }
+    "date": "02-Sep-2026",
+    "weekday": "Wednesday",
+    "period": "Evening",
+    "tables": [
+      {
+        "table": 1,
+        "matches": [
+          { "startTime": "6:00 PM", "endTime": "10:00 PM", "game": "Brass", "players": ["Kush", "Aniket", "Harshit", "Austin"] }
+        ]
+      },
+      {
+        "table": 2,
+        "matches": [
+          { "startTime": "6:00 PM", "endTime": "7:20 PM", "game": "Azul", "players": ["Abhishek", "Tanmay", "Mihir", "Mayank"] },
+          { "startTime": "7:20 PM", "endTime": "8:40 PM", "game": "Azul", "players": ["Mayank", "Sanskar", "Mihir", "Siddharth"] },
+          { "startTime": "8:40 PM", "endTime": "10:00 PM", "game": "Azul", "players": ["Harshmeet", "Reshank", "Abhishek", "Mohit"] }
+        ]
+      },
+      {
+        "table": 3,
+        "matches": [
+          { "startTime": "6:00 PM", "endTime": "7:20 PM", "game": "London", "players": ["Anuradha", "Sanskar", "Reshank", "Shourya"] },
+          { "startTime": "7:20 PM", "endTime": "8:40 PM", "game": "London", "players": ["Anuradha", "Raghav", "Tanmay", "Harshmeet"] }
+        ]
+      }
     ]
   },
   {
-    "day": "Day 2 — Sat, 13 Sep",
-    "blocks": [
-      { "time": "9:00 AM", "period": "Morning", "activity": "League Stage — Round 3 & 4", "icon": "dice" },
-      { "time": "1:00 PM", "period": "Afternoon", "activity": "Championship Knockouts", "icon": "trophy" },
-      { "time": "4:30 PM", "period": "Afternoon", "activity": "Community Workshop: Game Design", "icon": "pen" },
-      { "time": "8:00 PM", "period": "Evening", "activity": "Werewolf Night (Party Games)", "icon": "moon" }
+    "date": "03-Sep-2026",
+    "weekday": "Thursday",
+    "period": "Evening",
+    "tables": [
+      {
+        "table": 1,
+        "matches": [
+          { "startTime": "6:00 PM", "endTime": "10:00 PM", "game": "Wingspan", "players": ["Raghav", "Reshank", "Tanmay", "Mihir"] }
+        ]
+      },
+      {
+        "table": 2,
+        "matches": [
+          { "startTime": "6:00 PM", "endTime": "8:00 PM", "game": "Catan", "players": ["Shourya", "Anuradha", "Mayank", "Sanskar"] },
+          { "startTime": "8:00 PM", "endTime": "10:00 PM", "game": "Catan", "players": ["Priyanshu", "Siddharth", "Abhir", "Harshmeet"] }
+        ]
+      },
+      {
+        "table": 3,
+        "matches": [
+          { "startTime": "6:00 PM", "endTime": "10:00 PM", "game": "Burgundy", "players": ["Kush", "Austin", "Aniket", "Abhishek"] }
+        ]
+      }
     ]
   },
   {
-    "day": "Day 3 — Sun, 14 Sep",
-    "blocks": [
-      { "time": "9:30 AM", "period": "Morning", "activity": "Semi Finals", "icon": "dice" },
-      { "time": "1:00 PM", "period": "Afternoon", "activity": "Grand Finals", "icon": "trophy" },
-      { "time": "4:00 PM", "period": "Afternoon", "activity": "Awards & Prize Distribution", "icon": "award" },
-      { "time": "6:00 PM", "period": "Evening", "activity": "Closing Party & Confetti Finale", "icon": "party" }
+    "date": "04-Sep-2026",
+    "weekday": "Friday",
+    "period": "Evening",
+    "tables": [
+      {
+        "table": 1,
+        "matches": [
+          { "startTime": "6:00 PM", "endTime": "10:00 PM", "game": "Burgundy", "players": ["Reshank", "Sanskar", "Mohit", "Tanmay"] }
+        ]
+      },
+      {
+        "table": 2,
+        "matches": [
+          { "startTime": "6:00 PM", "endTime": "7:20 PM", "game": "Splendor", "players": ["Austin", "Anuradha", "Abhishek", "Raghav"] },
+          { "startTime": "8:40 PM", "endTime": "10:00 PM", "game": "London", "players": ["Aniket", "Siddharth", "Abhishek", "Kush"] }
+        ]
+      },
+      {
+        "table": 3,
+        "matches": [
+          { "startTime": "6:00 PM", "endTime": "7:20 PM", "game": "Splendor", "players": ["Harshmeet", "Mihir", "Mayank", "Aniket"] },
+          { "startTime": "8:00 PM", "endTime": "10:00 PM", "game": "Catan", "players": ["Dev", "Abhir", "Priyanshu", "Nitesh"] }
+        ]
+      }
     ]
   }
 ]
