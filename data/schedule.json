@@ -7,22 +7,86 @@
       {
         "table": 1,
         "matches": [
-          { "startTime": "6:00 PM", "endTime": "10:00 PM", "game": "Brass", "players": ["Kush", "Aniket", "Harshit", "Austin"] }
+          {
+            "startTime": "6:45 PM",
+            "endTime": "11:00 PM",
+            "game": "Brass",
+            "players": [
+              "Kush",
+              "Aniket",
+              "Harshit",
+              "Austin"
+            ],
+            "status": "Completed"
+          },
+          {
+            "startTime": "6:45 PM",
+            "endTime": "11:00 PM",
+            "game": "Azul",
+            "players": [
+              "Harshmeet",
+              "Reshank",
+              "Abhishek",
+              "Mohit"
+            ],
+            "status": "Completed"
+          }
         ]
       },
       {
         "table": 2,
         "matches": [
-          { "startTime": "6:00 PM", "endTime": "7:20 PM", "game": "Azul", "players": ["Abhishek", "Tanmay", "Mihir", "Mayank"] },
-          { "startTime": "7:20 PM", "endTime": "8:40 PM", "game": "Azul", "players": ["Mayank", "Sanskar", "Mihir", "Siddharth"] },
-          { "startTime": "8:40 PM", "endTime": "10:00 PM", "game": "Azul", "players": ["Harshmeet", "Reshank", "Abhishek", "Mohit"] }
+          {
+            "startTime": "6:45 PM",
+            "endTime": "11:00 PM",
+            "game": "Azul",
+            "players": [
+              "Abhishek",
+              "Tanmay",
+              "Mihir"
+            ],
+            "status": "Completed"
+          },
+          {
+            "startTime": "6:45 PM",
+            "endTime": "11:00 PM",
+            "game": "London",
+            "players": [
+              "Anuradha",
+              "Sanskar",
+              "Reshank",
+              "Shourya"
+            ],
+            "status": "Completed"
+          }
         ]
       },
       {
         "table": 3,
         "matches": [
-          { "startTime": "6:00 PM", "endTime": "7:20 PM", "game": "London", "players": ["Anuradha", "Sanskar", "Reshank", "Shourya"] },
-          { "startTime": "7:20 PM", "endTime": "8:40 PM", "game": "London", "players": ["Anuradha", "Raghav", "Tanmay", "Harshmeet"] }
+          {
+            "startTime": "6:45 PM",
+            "endTime": "11:00 PM",
+            "game": "Azul",
+            "players": [
+              "Sanskar",
+              "Mihir",
+              "Siddharth"
+            ],
+            "status": "Completed"
+          },
+          {
+            "startTime": "6:45 PM",
+            "endTime": "11:00 PM",
+            "game": "London",
+            "players": [
+              "Anuradha",
+              "Raghav",
+              "Siddharth",
+              "Harshmeet"
+            ],
+            "status": "Completed"
+          }
         ]
       }
     ]
@@ -35,20 +99,64 @@
       {
         "table": 1,
         "matches": [
-          { "startTime": "6:00 PM", "endTime": "10:00 PM", "game": "Wingspan", "players": ["Raghav", "Reshank", "Tanmay", "Mihir"] }
+          {
+            "startTime": "6:45 PM",
+            "endTime": "11:00 PM",
+            "game": "Wingspan",
+            "players": [
+              "Raghav",
+              "Reshank",
+              "Tanmay",
+              "Mihir"
+            ],
+            "status": "Completed"
+          },
+          {
+            "startTime": "6:45 PM",
+            "endTime": "11:00 PM",
+            "game": "Burgundy",
+            "players": [
+              "Kush",
+              "Austin",
+              "Aniket",
+              "Mohit"
+            ],
+            "status": "Completed"
+          }
         ]
       },
       {
         "table": 2,
         "matches": [
-          { "startTime": "6:00 PM", "endTime": "8:00 PM", "game": "Catan", "players": ["Shourya", "Anuradha", "Mayank", "Sanskar"] },
-          { "startTime": "8:00 PM", "endTime": "10:00 PM", "game": "Catan", "players": ["Priyanshu", "Siddharth", "Abhir", "Harshmeet"] }
+          {
+            "startTime": "6:45 PM",
+            "endTime": "11:00 PM",
+            "game": "Catan",
+            "players": [
+              "Shourya",
+              "Anuradha",
+              "Mayank",
+              "Nitesh"
+            ],
+            "status": "Completed"
+          }
         ]
       },
       {
         "table": 3,
         "matches": [
-          { "startTime": "6:00 PM", "endTime": "10:00 PM", "game": "Burgundy", "players": ["Kush", "Austin", "Aniket", "Abhishek"] }
+          {
+            "startTime": "6:45 PM",
+            "endTime": "11:00 PM",
+            "game": "Catan",
+            "players": [
+              "Priyanshu",
+              "Harshmeet",
+              "Abeer",
+              "Siddharth"
+            ],
+            "status": "Completed"
+          }
         ]
       }
     ]
@@ -61,21 +169,1273 @@
       {
         "table": 1,
         "matches": [
-          { "startTime": "6:00 PM", "endTime": "10:00 PM", "game": "Burgundy", "players": ["Reshank", "Sanskar", "Mohit", "Tanmay"] }
+          {
+            "startTime": "6:45 PM",
+            "endTime": "11:00 PM",
+            "game": "Burgundy",
+            "players": [
+              "Reshank",
+              "Kush",
+              "Mohit",
+              "Tanmay"
+            ],
+            "status": "Completed"
+          },
+          {
+            "startTime": "6:45 PM",
+            "endTime": "11:00 PM",
+            "game": "Catan",
+            "players": [
+              "Vishesh",
+              "Mihir",
+              "Sanskar",
+              "Nitesh"
+            ],
+            "status": "Completed"
+          }
         ]
       },
       {
         "table": 2,
         "matches": [
-          { "startTime": "6:00 PM", "endTime": "7:20 PM", "game": "Splendor", "players": ["Austin", "Anuradha", "Abhishek", "Raghav"] },
-          { "startTime": "8:40 PM", "endTime": "10:00 PM", "game": "London", "players": ["Aniket", "Siddharth", "Abhishek", "Kush"] }
+          {
+            "startTime": "6:45 PM",
+            "endTime": "11:00 PM",
+            "game": "Splendor",
+            "players": [
+              "Austin",
+              "Anuradha",
+              "Raghav"
+            ],
+            "status": "Completed"
+          }
         ]
       },
       {
         "table": 3,
         "matches": [
-          { "startTime": "6:00 PM", "endTime": "7:20 PM", "game": "Splendor", "players": ["Harshmeet", "Mihir", "Mayank", "Aniket"] },
-          { "startTime": "8:00 PM", "endTime": "10:00 PM", "game": "Catan", "players": ["Dev", "Abhir", "Priyanshu", "Nitesh"] }
+          {
+            "startTime": "6:45 PM",
+            "endTime": "11:00 PM",
+            "game": "Splendor",
+            "players": [
+              "Harshmeet",
+              "Mihir",
+              "Mayank"
+            ],
+            "status": "Completed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "05-Sep-2026",
+    "weekday": "Saturday",
+    "period": "Evening",
+    "tables": [
+      {
+        "table": 1,
+        "matches": [
+          {
+            "startTime": "6:45 PM",
+            "endTime": "11:00 PM",
+            "game": "Heat",
+            "players": [
+              "Anuradha",
+              "Siddharth",
+              "Abeer",
+              "Kavya",
+              "Ashish",
+              "Austin"
+            ],
+            "status": "Completed"
+          }
+        ]
+      },
+      {
+        "table": 2,
+        "matches": [
+          {
+            "startTime": "6:45 PM",
+            "endTime": "11:00 PM",
+            "game": "Wingspan",
+            "players": [
+              "Mohit",
+              "Raghav",
+              "Kush",
+              "Kartik"
+            ],
+            "status": "Completed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "06-Sep-2026",
+    "weekday": "Sunday",
+    "period": "Afternoon",
+    "tables": [
+      {
+        "table": 1,
+        "matches": [
+          {
+            "startTime": "3:00 PM",
+            "endTime": "6:30 PM",
+            "game": "Azul",
+            "players": [
+              "Mohit",
+              "Nitesh",
+              "Anuradha",
+              "Harshmeet"
+            ],
+            "status": "Completed"
+          },
+          {
+            "startTime": "6:45 PM",
+            "endTime": "11:00 PM",
+            "game": "Wingspan",
+            "players": [
+              "Kartik",
+              "Tanmay",
+              "Raghav",
+              "Mohit"
+            ],
+            "status": "Completed"
+          }
+        ]
+      },
+      {
+        "table": 2,
+        "matches": [
+          {
+            "startTime": "3:00 PM",
+            "endTime": "6:30 PM",
+            "game": "Catan",
+            "players": [
+              "Raghav",
+              "Sanskar",
+              "Anuradha",
+              "Abeer"
+            ],
+            "status": "Completed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "07-Sep-2026",
+    "weekday": "Monday",
+    "period": "Evening",
+    "tables": [
+      {
+        "table": 2,
+        "matches": [
+          {
+            "startTime": "6:45 PM",
+            "endTime": "11:00 PM",
+            "game": "Heat",
+            "players": [
+              "Tanmay",
+              "Sanskar",
+              "Mayank",
+              "Anuradha",
+              "Ashish",
+              "Harshmeet"
+            ],
+            "status": "Completed"
+          }
+        ]
+      },
+      {
+        "table": 3,
+        "matches": [
+          {
+            "startTime": "6:45 PM",
+            "endTime": "11:00 PM",
+            "game": "Burgundy",
+            "players": [
+              "Kush",
+              "Reshank",
+              "Pratyush",
+              "Mohit"
+            ],
+            "status": "Completed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "08-Sep-2026",
+    "weekday": "Tuesday",
+    "period": "Evening",
+    "tables": [
+      {
+        "table": 1,
+        "matches": [
+          {
+            "startTime": "7:30 PM",
+            "endTime": "11:00 PM",
+            "game": "Burgundy",
+            "players": [
+              "Harshit",
+              "Tanmay",
+              "Mayank",
+              "Shourya"
+            ],
+            "status": "Scheduled"
+          },
+          {
+            "startTime": "6:45 PM",
+            "endTime": "7:30 PM",
+            "game": "7 Wonders",
+            "players": [
+              "Harshit",
+              "Harshmeet",
+              "Mohit",
+              "Siddharth",
+              "Tanmay"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "09-Sep-2026",
+    "weekday": "Wednesday",
+    "period": "Evening",
+    "tables": [
+      {
+        "table": 1,
+        "matches": [
+          {
+            "startTime": "8:00 PM",
+            "endTime": "9:30 PM",
+            "game": "Azul",
+            "players": [
+              "Anuradha",
+              "Tanmay",
+              "Sanskar",
+              "Harshmeet"
+            ],
+            "status": "Scheduled"
+          },
+          {
+            "startTime": "9:30 PM",
+            "endTime": "11:00 PM",
+            "game": "London",
+            "players": [
+              "Siddharth",
+              "Tanmay",
+              "Harshmeet",
+              "Sanskar"
+            ],
+            "status": "Scheduled"
+          },
+          {
+            "startTime": "6:45 PM",
+            "endTime": "8:00 PM",
+            "game": "Wingspan",
+            "players": [
+              "Kartik",
+              "Kush",
+              "Mohit",
+              "Austin"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      },
+      {
+        "table": 3,
+        "matches": [
+          {
+            "startTime": "6:45 PM",
+            "endTime": "8:00 PM",
+            "game": "Catan",
+            "players": [
+              "Vishesh",
+              "Anshita",
+              "Dev",
+              "Anuradha"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "10-Sep-2026",
+    "weekday": "Thursday",
+    "period": "Evening",
+    "tables": [
+      {
+        "table": 1,
+        "matches": [
+          {
+            "startTime": "6:45 PM",
+            "endTime": "7:30 PM",
+            "game": "Azul",
+            "players": [
+              "Anshita",
+              "Siddharth",
+              "Kush",
+              "Anuradha"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      },
+      {
+        "table": 2,
+        "matches": [
+          {
+            "startTime": "6:45 PM",
+            "endTime": "8:00 PM",
+            "game": "Burgundy",
+            "players": [
+              "Pratyush",
+              "Sanskar",
+              "Reshank",
+              "Mayank"
+            ],
+            "status": "Scheduled"
+          },
+          {
+            "startTime": "6:45 PM",
+            "endTime": "11:00 PM",
+            "game": "Catan",
+            "players": [
+              "Mihir",
+              "Sanskar",
+              "Priyanshu",
+              "Raghav"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      },
+      {
+        "table": 3,
+        "matches": [
+          {
+            "startTime": "7:30 PM",
+            "endTime": "11:00 PM",
+            "game": "Heat",
+            "players": [
+              "Harshit",
+              "Austin",
+              "Abeer",
+              "Anuradha",
+              "Ashish",
+              "Anshita"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "11-Sep-2026",
+    "weekday": "Friday",
+    "period": "Evening",
+    "tables": [
+      {
+        "table": 1,
+        "matches": [
+          {
+            "startTime": "7:30 PM",
+            "endTime": "11:00 PM",
+            "game": "Burgundy",
+            "players": [
+              "Mihir",
+              "Anshita",
+              "Pratyush",
+              "Sanskar"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      },
+      {
+        "table": 2,
+        "matches": [
+          {
+            "startTime": "6:45 PM",
+            "endTime": "7:30 PM",
+            "game": "London",
+            "players": [
+              "Harshmeet",
+              "Anshita",
+              "Tanmay",
+              "Mohit"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      },
+      {
+        "table": 3,
+        "matches": [
+          {
+            "startTime": "7:30 PM",
+            "endTime": "11:00 PM",
+            "game": "Wingspan",
+            "players": [
+              "Reshank",
+              "Kartik",
+              "Harshit",
+              "Tanmay"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "12-Sep-2026",
+    "weekday": "Saturday",
+    "period": "Afternoon",
+    "tables": [
+      {
+        "table": 1,
+        "matches": [
+          {
+            "startTime": "6:45 PM",
+            "endTime": "7:30 PM",
+            "game": "Splendor",
+            "players": [
+              "Sanskar",
+              "Harshit",
+              "Mihir",
+              "Mayank"
+            ],
+            "status": "Scheduled"
+          },
+          {
+            "startTime": "7:30 PM",
+            "endTime": "11:00 PM",
+            "game": "Burgundy",
+            "players": [
+              "Kush",
+              "Sanskar",
+              "Harshit",
+              "Mihir"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "13-Sep-2026",
+    "weekday": "Sunday",
+    "period": "Afternoon",
+    "tables": [
+      {
+        "table": 1,
+        "matches": [
+          {
+            "startTime": "6:45 PM",
+            "endTime": "11:00 PM",
+            "game": "Heat",
+            "players": [
+              "Karan",
+              "Harshit",
+              "Harshmeet",
+              "Sanskar",
+              "Austin",
+              "Nitesh"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      },
+      {
+        "table": 2,
+        "matches": [
+          {
+            "startTime": "3:00 PM",
+            "endTime": "4:00 PM",
+            "game": "Azul",
+            "players": [
+              "Nitesh",
+              "Kush",
+              "Sanskar",
+              "Anshita"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      },
+      {
+        "table": 3,
+        "matches": [
+          {
+            "startTime": "4:00 PM",
+            "endTime": "6:30 PM",
+            "game": "Splendor",
+            "players": [
+              "Austin",
+              "Mayank",
+              "Sanskar",
+              "Raghav"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "14-Sep-2026",
+    "weekday": "Monday",
+    "period": "Evening",
+    "tables": [
+      {
+        "table": 1,
+        "matches": [
+          {
+            "startTime": "6:45 PM",
+            "endTime": "7:30 PM",
+            "game": "Azul",
+            "players": [
+              "Reshank",
+              "Mayank",
+              "Nitesh",
+              "Raghav"
+            ],
+            "status": "Scheduled"
+          },
+          {
+            "startTime": "6:45 PM",
+            "endTime": "11:00 PM",
+            "game": "Wingspan",
+            "players": [
+              "Karan",
+              "Anshita",
+              "Harshit",
+              "Austin"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      },
+      {
+        "table": 2,
+        "matches": [
+          {
+            "startTime": "6:45 PM",
+            "endTime": "11:00 PM",
+            "game": "Catan",
+            "players": [
+              "Harshmeet",
+              "Dev",
+              "Priyanshu",
+              "Vishesh"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      },
+      {
+        "table": 3,
+        "matches": [
+          {
+            "startTime": "7:30 PM",
+            "endTime": "11:00 PM",
+            "game": "Heat",
+            "players": [
+              "Mayank",
+              "Kush",
+              "Siddharth",
+              "Mihir",
+              "Abeer",
+              "Nitesh"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "15-Sep-2026",
+    "weekday": "Tuesday",
+    "period": "Evening",
+    "tables": [
+      {
+        "table": 1,
+        "matches": [
+          {
+            "startTime": "6:45 PM",
+            "endTime": "11:00 PM",
+            "game": "Heat",
+            "players": [
+              "Mohit",
+              "Anshita",
+              "Kush",
+              "Shourya",
+              "Karan",
+              "Mihir"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      },
+      {
+        "table": 2,
+        "matches": [
+          {
+            "startTime": "6:45 PM",
+            "endTime": "11:00 PM",
+            "game": "Splendor",
+            "players": [
+              "Harshmeet",
+              "Austin",
+              "Harshit",
+              "Raghav"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "16-Sep-2026",
+    "weekday": "Wednesday",
+    "period": "Evening",
+    "tables": [
+      {
+        "table": 1,
+        "matches": [
+          {
+            "startTime": "6:45 PM",
+            "endTime": "7:30 PM",
+            "game": "7 Wonders",
+            "players": [
+              "Mohit",
+              "Tanmay",
+              "Mayank",
+              "Harshmeet",
+              "Siddharth"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      },
+      {
+        "table": 2,
+        "matches": [
+          {
+            "startTime": "7:30 PM",
+            "endTime": "11:00 PM",
+            "game": "Heat",
+            "players": [
+              "Raghav",
+              "Austin",
+              "Harshit",
+              "Kavya",
+              "Siddharth",
+              "Nitesh"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      },
+      {
+        "table": 3,
+        "matches": [
+          {
+            "startTime": "6:45 PM",
+            "endTime": "11:00 PM",
+            "game": "Wingspan",
+            "players": [
+              "Karan",
+              "Anshita",
+              "Reshank",
+              "Shourya"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "17-Sep-2026",
+    "weekday": "Thursday",
+    "period": "Evening",
+    "tables": [
+      {
+        "table": 1,
+        "matches": [
+          {
+            "startTime": "6:45 PM",
+            "endTime": "7:30 PM",
+            "game": "7 Wonders",
+            "players": [
+              "Harshmeet",
+              "Austin",
+              "Tanmay",
+              "Mayank",
+              "Harshit"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      },
+      {
+        "table": 3,
+        "matches": [
+          {
+            "startTime": "7:30 PM",
+            "endTime": "11:00 PM",
+            "game": "Brass",
+            "players": [
+              "Kush",
+              "Reshank",
+              "Shourya",
+              "Harshit"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "18-Sep-2026",
+    "weekday": "Friday",
+    "period": "Evening",
+    "tables": [
+      {
+        "table": 1,
+        "matches": [
+          {
+            "startTime": "7:30 PM",
+            "endTime": "11:00 PM",
+            "game": "Burgundy",
+            "players": [
+              "Harshit",
+              "Austin",
+              "Anshita",
+              "Shourya"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      },
+      {
+        "table": 2,
+        "matches": [
+          {
+            "startTime": "7:30 PM",
+            "endTime": "11:00 PM",
+            "game": "London",
+            "players": [
+              "Raghav",
+              "Reshank",
+              "Mohit",
+              "Siddharth"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      },
+      {
+        "table": 3,
+        "matches": [
+          {
+            "startTime": "6:45 PM",
+            "endTime": "7:30 PM",
+            "game": "London",
+            "players": [
+              "Kush",
+              "Shourya",
+              "Mohit",
+              "Anshita"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "19-Sep-2026",
+    "weekday": "Saturday",
+    "period": "Evening",
+    "tables": [
+      {
+        "table": 1,
+        "matches": [
+          {
+            "startTime": "6:45 PM",
+            "endTime": "11:00 PM",
+            "game": "Catan",
+            "players": [
+              "Dev",
+              "Abeer",
+              "Nitesh",
+              "Siddharth"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      },
+      {
+        "table": 2,
+        "matches": [
+          {
+            "startTime": "6:45 PM",
+            "endTime": "11:00 PM",
+            "game": "Heat",
+            "players": [
+              "Karan",
+              "Mayank",
+              "Raghav",
+              "Mohit",
+              "Reshank",
+              "Shourya"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      },
+      {
+        "table": 3,
+        "matches": [
+          {
+            "startTime": "6:45 PM",
+            "endTime": "11:00 PM",
+            "game": "Wingspan",
+            "players": [
+              "Tanmay",
+              "Anshita",
+              "Mihir",
+              "Kush"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "20-Sep-2026",
+    "weekday": "Sunday",
+    "period": "Afternoon",
+    "tables": [
+      {
+        "table": 1,
+        "matches": [
+          {
+            "startTime": "3:00 PM",
+            "endTime": "6:30 PM",
+            "game": "Brass",
+            "players": [
+              "Harshit",
+              "Austin",
+              "Siddharth",
+              "Shourya"
+            ],
+            "status": "Scheduled"
+          },
+          {
+            "startTime": "6:45 PM",
+            "endTime": "11:00 PM",
+            "game": "Heat",
+            "players": [
+              "Kavya",
+              "Anshita",
+              "Ashish",
+              "Mihir",
+              "Shourya",
+              "Nitesh"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      },
+      {
+        "table": 2,
+        "matches": [
+          {
+            "startTime": "3:00 PM",
+            "endTime": "6:30 PM",
+            "game": "Catan",
+            "players": [
+              "Nitesh",
+              "Mihir",
+              "Dev",
+              "Mayank"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      },
+      {
+        "table": 3,
+        "matches": [
+          {
+            "startTime": "3:00 PM",
+            "endTime": "6:30 PM",
+            "game": "Heat",
+            "players": [
+              "Kush",
+              "Mohit",
+              "Reshank",
+              "Karan",
+              "Raghav",
+              "Tanmay"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "21-Sep-2026",
+    "weekday": "Monday",
+    "period": "Evening",
+    "tables": [
+      {
+        "table": 1,
+        "matches": [
+          {
+            "startTime": "6:45 PM",
+            "endTime": "7:30 PM",
+            "game": "Azul",
+            "players": [
+              "Mayank",
+              "Tanmay",
+              "Anshita",
+              "Kush"
+            ],
+            "status": "Scheduled"
+          },
+          {
+            "startTime": "6:45 PM",
+            "endTime": "11:00 PM",
+            "game": "Wingspan",
+            "players": [
+              "Mihir",
+              "Shourya",
+              "Mohit",
+              "Karan"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      },
+      {
+        "table": 2,
+        "matches": [
+          {
+            "startTime": "7:30 PM",
+            "endTime": "11:00 PM",
+            "game": "London",
+            "players": [
+              "Reshank",
+              "Sanskar",
+              "Anshita",
+              "Kush"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "22-Sep-2026",
+    "weekday": "Tuesday",
+    "period": "Evening",
+    "tables": [
+      {
+        "table": 1,
+        "matches": [
+          {
+            "startTime": "7:30 PM",
+            "endTime": "11:00 PM",
+            "game": "Burgundy",
+            "players": [
+              "Austin",
+              "Shourya",
+              "Tanmay",
+              "Mayank"
+            ],
+            "status": "Scheduled"
+          },
+          {
+            "startTime": "6:45 PM",
+            "endTime": "7:30 PM",
+            "game": "London",
+            "players": [
+              "Raghav",
+              "Kush",
+              "Shourya",
+              "Tanmay"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      },
+      {
+        "table": 3,
+        "matches": [
+          {
+            "startTime": "6:45 PM",
+            "endTime": "11:00 PM",
+            "game": "Splendor",
+            "players": [
+              "Sanskar",
+              "Harshmeet",
+              "Mihir",
+              "Harshit"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "23-Sep-2026",
+    "weekday": "Wednesday",
+    "period": "Evening",
+    "tables": [
+      {
+        "table": 1,
+        "matches": [
+          {
+            "startTime": "6:45 PM",
+            "endTime": "7:30 PM",
+            "game": "7 Wonders",
+            "players": [
+              "Tanmay",
+              "Mohit",
+              "Austin",
+              "Mayank",
+              "Harshit"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      },
+      {
+        "table": 2,
+        "matches": [
+          {
+            "startTime": "6:45 PM",
+            "endTime": "7:30 PM",
+            "game": "Azul",
+            "players": [
+              "Nitesh",
+              "Siddharth",
+              "Raghav",
+              "Reshank"
+            ],
+            "status": "Scheduled"
+          },
+          {
+            "startTime": "7:30 PM",
+            "endTime": "11:00 PM",
+            "game": "Wingspan",
+            "players": [
+              "Austin",
+              "Harshit",
+              "Karan",
+              "Shourya"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      },
+      {
+        "table": 3,
+        "matches": [
+          {
+            "startTime": "7:30 PM",
+            "endTime": "11:00 PM",
+            "game": "Catan",
+            "players": [
+              "Siddharth",
+              "Anshita",
+              "Priyanshu",
+              "Vishesh"
+            ],
+            "status": "Scheduled"
+          },
+          {
+            "startTime": "7:30 PM",
+            "endTime": "11:00 PM",
+            "game": "Heat",
+            "players": [
+              "Harshmeet",
+              "Tanmay",
+              "Abeer",
+              "Sanskar",
+              "Kavya",
+              "Reshank"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "24-Sep-2026",
+    "weekday": "Thursday",
+    "period": "Evening",
+    "tables": [
+      {
+        "table": 2,
+        "matches": [
+          {
+            "startTime": "7:30 PM",
+            "endTime": "11:00 PM",
+            "game": "Brass",
+            "players": [
+              "Austin",
+              "Reshank",
+              "Kush",
+              "Siddharth"
+            ],
+            "status": "Scheduled"
+          },
+          {
+            "startTime": "7:30 PM",
+            "endTime": "11:00 PM",
+            "game": "Catan",
+            "players": [
+              "Shourya",
+              "Raghav",
+              "Harshmeet",
+              "Sanskar"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      },
+      {
+        "table": 3,
+        "matches": [
+          {
+            "startTime": "6:45 PM",
+            "endTime": "7:30 PM",
+            "game": "Azul",
+            "players": [
+              "Mayank",
+              "Mihir",
+              "Raghav",
+              "Mohit"
+            ],
+            "status": "Scheduled"
+          },
+          {
+            "startTime": "6:45 PM",
+            "endTime": "11:00 PM",
+            "game": "Catan",
+            "players": [
+              "Anshita",
+              "Dev",
+              "Mayank",
+              "Abeer"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "25-Sep-2026",
+    "weekday": "Friday",
+    "period": "Evening",
+    "tables": [
+      {
+        "table": 2,
+        "matches": [
+          {
+            "startTime": "6:45 PM",
+            "endTime": "11:00 PM",
+            "game": "Catan",
+            "players": [
+              "Siddharth",
+              "Raghav",
+              "Harshmeet",
+              "Sanskar"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      },
+      {
+        "table": 3,
+        "matches": [
+          {
+            "startTime": "6:45 PM",
+            "endTime": "11:00 PM",
+            "game": "Catan",
+            "players": [
+              "Anshita",
+              "Shourya",
+              "Mayank",
+              "Abeer"
+            ],
+            "status": "Scheduled"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "26-Sep-2026",
+    "weekday": "Monday",
+    "period": "Evening",
+    "tables": [
+      {
+        "table": 1,
+        "matches": [
+          {
+            "startTime": "6:45 PM",
+            "endTime": "11:00 PM",
+            "game": "7 Wonders",
+            "players": [
+              "Mayank",
+              "Siddharth",
+              "Mohit",
+              "Austin",
+              "Tanmay"
+            ],
+            "status": "Scheduled"
+          },
+          {
+            "startTime": "7:30 PM",
+            "endTime": "11:00 PM",
+            "game": "Burgundy",
+            "players": [
+              "Pratyush",
+              "Mayank",
+              "Anshita",
+              "Mihir"
+            ],
+            "status": "Scheduled"
+          }
         ]
       }
     ]
