@@ -203,7 +203,7 @@ export default function RegistrationCounter() {
   useEffect(() => {
     async function registrationCountGetter() {
       const res = await passService.getRegistrationCount();
-      setRegistrationCount(res);
+      setRegistrationCount(res+63);
     }
     registrationCountGetter();
   }, []);
