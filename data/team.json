@@ -1,16 +1,29 @@
 {
   "organisers": [
-    { "name": "Ritika Shah", "role": "Festival Director" },
-    { "name": "Arjun Desai", "role": "Head of Operations" },
-    { "name": "Simran Gill", "role": "Community Lead" }
+    {
+      "name": "Abhishek Chandran",
+      "role": "Founder, Meepleton"
+    }
   ],
-  "volunteers": [
-    { "name": "Yash Trivedi", "role": "Volunteer Coordinator" },
-    { "name": "Diya Menon", "role": "Registration Desk" },
-    { "name": "Farhan Khan", "role": "Games Master" }
-  ],
-  "partners": [
-    { "name": "Board Game Guild of India", "role": "Community Partner" },
-    { "name": "Bhopal Tabletop Meetup", "role": "Community Partner" }
-  ]
+  "volunteers": {
+    "blurb": "None of this happens without our volunteers — the people who ran registration, managed tables, kept score, and made sure every match ran smoothly. Thank you for showing up and making this festival what it is."
+  },
+  "partners": {
+    "featured": [
+      { "name": "Rovera Finance", "role": "Title Sponsor" },
+      { "name": "Everich", "role": "Presentation Partner" },
+      { "name": "Poppin' Deli", "role": "Venue Partner" },
+      { "name": "Meepleton", "role": "Organisers" }
+    ],
+    "supporters": [
+      "Tie Up Event Planners",
+      "Roy Fitness",
+      "Gamebae",
+      "Baethak Club",
+      "Glidr",
+      "Innercircle",
+      "Girls on Grass",
+      "Meepleton Community"
+    ]
+  }
 }

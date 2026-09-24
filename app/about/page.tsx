@@ -300,6 +300,138 @@
 
 
 // CODE WITH REAL IMAGES IN ABOUT PAGE
+// "use client";
+
+// import { motion } from "framer-motion";
+// import Image from "next/image";
+// import team from "@/data/team.json";
+// import PageHeader from "@/components/PageHeader";
+
+
+// function TeamGroup({
+//   title,
+//   members,
+//   avatarTint,
+// }: {
+//   title: string;
+//   members: { name: string; role: string }[];
+//   avatarTint: string;
+// }) {
+//   return (
+//     <div className="mb-12">
+//       <h3 className="font-heading text-2xl font-semibold mb-6">{title}</h3>
+//       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+//         {members.map((m, i) => (
+//           <motion.div
+//             key={m.name}
+//             initial={{ opacity: 0, y: 20 }}
+//             whileInView={{ opacity: 1, y: 0 }}
+//             viewport={{ once: true }}
+//             transition={{ type: "spring", stiffness: 150, damping: 16, delay: (i % 6) * 0.06 }}
+//             whileHover={{ y: -4 }}
+//             className="bg-white rounded-xl2 p-6 shadow-softer flex items-center gap-4"
+//           >
+//             <div className={`w-12 h-12 rounded-full flex items-center justify-center font-heading font-semibold ${avatarTint}`}>
+//               {m.name.charAt(0)}
+//             </div>
+//             <div>
+//               <p className="font-semibold">{m.name}</p>
+//               <p className="text-sm text-ink/60">{m.role}</p>
+//             </div>
+//           </motion.div>
+//         ))}
+//       </div>
+//     </div>
+//   );
+// }
+
+// const galleryImages = [
+//   { src: "/gallery/gallery-1.jpeg", alt: "Board game league event photo 1" },
+//   { src: "/gallery/gallery-2.jpeg", alt: "Board game league event photo 2" },
+//   { src: "/gallery/gallery-3.jpeg", alt: "Board game league event photo 3" },
+//   { src: "/gallery/gallery-4.jpeg", alt: "Board game league event photo 4" },
+//   { src: "/gallery/gallery-5.jpeg", alt: "Board game league event photo 5" },
+//   { src: "/gallery/gallery-6.jpeg", alt: "Board game league event photo 6", position: "center top" },
+//   { src: "/gallery/gallery-7.jpg", alt: "Board game league event photo 7" },
+//   { src: "/gallery/gallery-8.jpg", alt: "Board game league event photo 8" },
+//   { src: "/gallery/gallery-9.jpg", alt: "Board game league event photo 9" },
+  
+// ];
+
+// export default function AboutPage() {
+//   return (
+//     <div className="max-w-6xl mx-auto px-6 md:px-10 pt-32 pb-20">
+//       <PageHeader
+//         title="About Us"
+//         subtitle="League of Board Games started as a living-room game night and grew into the bhopal's largest tabletop gaming festival."
+//       />
+
+//       <div className="grid md:grid-cols-2 gap-8 mb-20">
+//         <motion.div
+//           initial={{ opacity: 0, x: -20 }}
+//           whileInView={{ opacity: 1, x: 0 }}
+//           viewport={{ once: true }}
+//           transition={{ duration: 0.5 }}
+//           className="relative overflow-hidden bg-forest-light/15 rounded-xl3 p-8"
+//         >
+//           <span className="absolute top-0 left-0 bottom-0 w-1.5 bg-forest" aria-hidden />
+//           <h3 className="font-heading text-xl font-semibold mb-3">Our Mission</h3>
+//           <p className="text-sm text-ink/70">
+//             To build the country&apos;s most welcoming competitive tabletop community, where
+//             strategy, story and sportsmanship matter equally.
+//           </p>
+//         </motion.div>
+//         <motion.div
+//           initial={{ opacity: 0, x: 20 }}
+//           whileInView={{ opacity: 1, x: 0 }}
+//           viewport={{ once: true }}
+//           transition={{ duration: 0.5, delay: 0.1 }}
+//           className="relative overflow-hidden bg-sky-light/20 rounded-xl3 p-8"
+//         >
+//           <span className="absolute top-0 left-0 bottom-0 w-1.5 bg-sky" aria-hidden />
+//           <h3 className="font-heading text-xl font-semibold mb-3">Our Vision</h3>
+//           <p className="text-sm text-ink/70">
+//             A yearly festival that puts board games on the same stage as any national sport —
+//             celebrated, competitive, and fun for everyone.
+//           </p>
+//         </motion.div>
+//       </div>
+
+//       <TeamGroup title="Organisers" members={team.organisers} avatarTint="bg-forest-light/30 text-forest-dark" />
+//       <TeamGroup title="Volunteers" members={team.volunteers} avatarTint="bg-cherry-light/30 text-cherry-dark" />
+//       <TeamGroup title="Community Partners" members={team.partners} avatarTint="bg-sky-light/40 text-sky-dark" />
+
+//       <div>
+//         <h3 className="font-heading text-2xl font-semibold mb-6">Gallery</h3>
+//         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+//           {galleryImages.map((img, i) => (
+//             <motion.div
+//               key={img.src}
+//               initial={{ opacity: 0, scale: 0.9 }}
+//               whileInView={{ opacity: 1, scale: 1 }}
+//               viewport={{ once: true }}
+//               transition={{ duration: 0.35, delay: i * 0.05 }}
+//               whileHover={{ scale: 1.05 }}
+//               className="relative aspect-square rounded-xl2 overflow-hidden"
+//             >
+//               <Image
+//                 src={img.src}
+//                 alt={img.alt}
+//                 fill
+//                 className="object-cover"
+//                 sizes="(max-width: 640px) 50vw, 25vw"
+//               />
+//             </motion.div>
+//           ))}
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
+
+
+
+
 "use client";
 
 import { motion } from "framer-motion";
@@ -307,39 +439,50 @@ import Image from "next/image";
 import team from "@/data/team.json";
 import PageHeader from "@/components/PageHeader";
 
-
 function TeamGroup({
   title,
   members,
   avatarTint,
 }: {
   title: string;
-  members: { name: string; role: string }[];
+  members: { name: string; role: string; link?: string }[];
   avatarTint: string;
 }) {
   return (
     <div className="mb-12">
       <h3 className="font-heading text-2xl font-semibold mb-6">{title}</h3>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {members.map((m, i) => (
-          <motion.div
-            key={m.name}
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ type: "spring", stiffness: 150, damping: 16, delay: (i % 6) * 0.06 }}
-            whileHover={{ y: -4 }}
-            className="bg-white rounded-xl2 p-6 shadow-softer flex items-center gap-4"
-          >
-            <div className={`w-12 h-12 rounded-full flex items-center justify-center font-heading font-semibold ${avatarTint}`}>
-              {m.name.charAt(0)}
-            </div>
-            <div>
-              <p className="font-semibold">{m.name}</p>
-              <p className="text-sm text-ink/60">{m.role}</p>
-            </div>
-          </motion.div>
-        ))}
+        {members.map((m, i) => {
+          const card = (
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ type: "spring", stiffness: 150, damping: 16, delay: (i % 6) * 0.06 }}
+              whileHover={{ y: -4 }}
+              className="bg-white rounded-xl2 p-6 shadow-softer flex items-center gap-4"
+            >
+              <div className={`w-12 h-12 rounded-full flex items-center justify-center font-heading font-semibold ${avatarTint}`}>
+                {m.name.charAt(0)}
+              </div>
+              <div>
+                <p className="font-semibold">
+                  {m.name}
+                  {m.link && <span className="ml-1.5 text-ink/40 text-xs align-middle">↗</span>}
+                </p>
+                <p className="text-sm text-ink/60">{m.role}</p>
+              </div>
+            </motion.div>
+          );
+
+          return m.link ? (
+            <a key={m.name} href={m.link} target="_blank" rel="noopener noreferrer" className="block">
+              {card}
+            </a>
+          ) : (
+            <div key={m.name}>{card}</div>
+          );
+        })}
       </div>
     </div>
   );
@@ -355,7 +498,6 @@ const galleryImages = [
   { src: "/gallery/gallery-7.jpg", alt: "Board game league event photo 7" },
   { src: "/gallery/gallery-8.jpg", alt: "Board game league event photo 8" },
   { src: "/gallery/gallery-9.jpg", alt: "Board game league event photo 9" },
-  
 ];
 
 export default function AboutPage() {
@@ -377,8 +519,8 @@ export default function AboutPage() {
           <span className="absolute top-0 left-0 bottom-0 w-1.5 bg-forest" aria-hidden />
           <h3 className="font-heading text-xl font-semibold mb-3">Our Mission</h3>
           <p className="text-sm text-ink/70">
-            To build the country&apos;s most welcoming competitive tabletop community, where
-            strategy, story and sportsmanship matter equally.
+            Our board game cafe fosters genuine connections and reduces screen time by providing a diverse selection of games for face-to-face engagement and shared memories.
+            In a digital age, we're dedicated to reviving the joy of in-person interactions and building a stronger community through the shared love of board games. Join us in creating memorable moments, one game at a time.
           </p>
         </motion.div>
         <motion.div
@@ -389,17 +531,66 @@ export default function AboutPage() {
           className="relative overflow-hidden bg-sky-light/20 rounded-xl3 p-8"
         >
           <span className="absolute top-0 left-0 bottom-0 w-1.5 bg-sky" aria-hidden />
-          <h3 className="font-heading text-xl font-semibold mb-3">Our Vision</h3>
+          <h3 className="font-heading text-xl font-semibold mb-3">Our Story</h3>
           <p className="text-sm text-ink/70">
-            A yearly festival that puts board games on the same stage as any national sport —
-            celebrated, competitive, and fun for everyone.
+            Founded by Abhishek Chandran, our board game cafe is a testament to a passion for fostering meaningful connections and building community through the joy of board games. Abhishek's vision emerged from a desire to create a space where people could escape the digital noise, rediscover the joy of face-to-face interactions, and share moments of laughter and camaraderie.
+            Abhishek Chandran's dream of a board game cafe is not just a business; it's a passion project built on the foundation of genuine connections and a shared love for unplugged entertainment. Join us in this journey of community building, one roll of the dice at a time.
           </p>
         </motion.div>
       </div>
 
       <TeamGroup title="Organisers" members={team.organisers} avatarTint="bg-forest-light/30 text-forest-dark" />
-      <TeamGroup title="Volunteers" members={team.volunteers} avatarTint="bg-cherry-light/30 text-cherry-dark" />
-      <TeamGroup title="Community Partners" members={team.partners} avatarTint="bg-sky-light/40 text-sky-dark" />
+
+      {/* Volunteers — credited as a group, no individual names */}
+      <motion.div
+        initial={{ opacity: 0, y: 16 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.5 }}
+        className="relative overflow-hidden bg-cherry-light/15 rounded-xl3 p-8 mb-20"
+      >
+        <span className="absolute top-0 left-0 bottom-0 w-1.5 bg-cherry" aria-hidden />
+        <h3 className="font-heading text-xl font-semibold mb-3">Our Volunteers</h3>
+        <p className="text-sm text-ink/70">{team.volunteers.blurb}</p>
+      </motion.div>
+
+      {/* Partners — text only, no logos */}
+      <div className="mb-20">
+        <h3 className="font-heading text-2xl font-semibold mb-6">Partners</h3>
+
+        {/* Featured partners — text cards with role */}
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
+          {team.partners.featured.map((p, i) => (
+            <motion.div
+              key={p.name}
+              initial={{ opacity: 0, y: 16 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, delay: i * 0.06 }}
+              className="bg-white rounded-xl2 shadow-softer p-5"
+            >
+              <p className="font-semibold text-sm">{p.name}</p>
+              <p className="text-xs text-ink/50 mt-1">{p.role}</p>
+            </motion.div>
+          ))}
+        </div>
+
+        {/* Supporting partners — small text-only chips */}
+        <div className="flex flex-wrap gap-2">
+          {team.partners.supporters.map((name, i) => (
+            <motion.span
+              key={name}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.3, delay: i * 0.03 }}
+              className="text-xs font-medium px-3 py-1.5 rounded-full bg-white border border-ink/10 text-ink/60 shadow-sm"
+            >
+              {name}
+            </motion.span>
+          ))}
+        </div>
+      </div>
 
       <div>
         <h3 className="font-heading text-2xl font-semibold mb-6">Gallery</h3>
